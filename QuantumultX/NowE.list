@@ -1,5 +1,5 @@
-HOST-SUFFIX,pccw-cf-video.akamaized.net
-HOST-SUFFIX,pccw-live-cdn-01.akamaized.net
+HOST,pccw-cf-video.akamaized.net
+HOST,pccw-live-cdn-01.akamaized.net
 HOST-SUFFIX,now-ashare.com
 HOST-SUFFIX,now.com.hk
 HOST-SUFFIX,nowe.hk
