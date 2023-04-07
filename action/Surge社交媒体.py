@@ -41,5 +41,5 @@ time_str = now.strftime("%Y-%m-%d %H:%M:%S")
 result_text = "# SocialMedia.list\n# Generated at " + time_str + "\n\n" + "\n".join(result) + "\n\n# This configuration file has been generated successfully."
 
 # 将字符串写入文件
-with open("./Surge/Surge/SocialMedia.list", "w", encoding="utf-8") as f:
+with open("./Surge/SocialMedia.list", "w", encoding="utf-8") as f:
     f.write(result_text)
