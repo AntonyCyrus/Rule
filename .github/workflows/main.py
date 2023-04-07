@@ -44,4 +44,3 @@ jobs:
         with:
           github_token: ${{ secrets.ACTIONS_TOKEN }}
           branch: ${{ github.ref }}
-.github/workflows
