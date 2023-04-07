@@ -14,7 +14,7 @@ for rawresult in [rawHotstar, rawZeeTV]:
 result_text = '\n'.join(result)
 
 try:
-    with open("./INMedia.yaml", "w") as f:
+    with open("./Clash/INMedia.yaml", "w") as f:
         f.write("\n".join(result))
 except IOError as e:
     print("Error occurred when writing to file:", e)
