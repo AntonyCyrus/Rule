@@ -1,0 +1,94 @@
+payload:
+  - DOMAIN-SUFFIX,bahamut.akamaized.net
+  - DOMAIN-SUFFIX,bahamut.com.tw
+  - DOMAIN-SUFFIX,digicert.com
+  - DOMAIN-SUFFIX,fbcdn.net
+  - DOMAIN-SUFFIX,gamer.com.tw
+  - DOMAIN-SUFFIX,gvt1.com
+  - DOMAIN-SUFFIX,hinet.net
+  - DOMAIN-SUFFIX,viblast.com
+
+  # > CATCHPLAY+
+  # USER-AGENT,CATCHPLAY*
+  - PROCESS-NAME,com.catchplay.asiaplay
+  - PROCESS-NAME,com.catchplay.asiaplay.tv
+  - PROCESS-NAME,com.catchplay.asiaplay.common.tv
+  - DOMAIN-SUFFIX,catchplay.com
+  - DOMAIN,asiaplay-origin.s3.amazonaws.com
+  - DOMAIN,tra-ww000-cp.akamaized.net
+  - DOMAIN,ols-ww000-cp.akamaized.net
+  - DOMAIN,ols-ww100-cp.akamaized.net
+  - DOMAIN,dkfhw9rzsr80z.cloudfront.net
+
+  - DOMAIN-SUFFIX,fetnet.net
+  - DOMAIN-SUFFIX,friday.tw
+
+  - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
+  - DOMAIN,bcbolthboa-a.akamaihd.net
+  - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net
+  - DOMAIN,dai3fd1oh325y.cloudfront.net
+  - DOMAIN,hboasia1-i.akamaihd.net
+  - DOMAIN,hboasia2-i.akamaihd.net
+  - DOMAIN,hboasia3-i.akamaihd.net
+  - DOMAIN,hboasia4-i.akamaihd.net
+  - DOMAIN,hboasia5-i.akamaihd.net
+  - DOMAIN,hboasialive.akamaized.net
+  - DOMAIN,hbogoprod-vod.akamaized.net
+  - DOMAIN,hbolb.onwardsmg.com
+  - DOMAIN,hbounify-prod.evergent.com
+  - DOMAIN,players.brightcove.net
+  - DOMAIN,s3-ap-southeast-1.amazonaws.com
+  - DOMAIN,wmff.warnermediacdn.com
+  - DOMAIN-SUFFIX,hbogoasia.com
+  - DOMAIN-SUFFIX,hbogoasia.hk
+  - DOMAIN-KEYWORD,.hbogoasia.
+
+  - DOMAIN,hls-hichannel.cdn.hinet.net
+  - DOMAIN-SUFFIX,hamivideo.hinet.net
+  - DOMAIN-SUFFIX,ott.hinet.net
+  - DOMAIN-KEYWORD,hamivideo.cdn.hinet.net
+
+  - DOMAIN-SUFFIX,kfs.io
+  - DOMAIN-SUFFIX,kk.stream
+  - DOMAIN-SUFFIX,kkbox-prime.com
+  - DOMAIN-SUFFIX,kkbox.com
+  - DOMAIN-SUFFIX,kkbox.com.tw
+  - DOMAIN-SUFFIX,kktix.com
+  - DOMAIN-SUFFIX,kktv.com.tw
+  - DOMAIN-SUFFIX,kktv.me
+  - DOMAIN-SUFFIX,theater-kktv.cdn.hinet.net
+
+  - DOMAIN,kktv-theater.kk.stream
+  - DOMAIN,theater-kktv.cdn.hinet.net
+  - DOMAIN-SUFFIX,kktv.com.tw
+  - DOMAIN-SUFFIX,kktv.me
+
+  - DOMAIN,litvfreemobile-hichannel.cdn.hinet.net
+  - DOMAIN-SUFFIX,litv.tv
+
+  - DOMAIN,d17lx9ucc6k9fc.cloudfront.net
+  - DOMAIN,d3pgb93pk7bvxj.cloudfront.net
+  - DOMAIN,d3vm9lcxb6xcm4.cloudfront.net
+  - DOMAIN-SUFFIX,chocotv.com.tw
+  - DOMAIN-SUFFIX,d3c7rimkq79yfu.cloudfront.net
+  - DOMAIN-SUFFIX,line-cdn.net
+  - DOMAIN-SUFFIX,line-scdn.net
+  - DOMAIN-SUFFIX,linetv.tw
+  - PROCESS-NAME,com.linecorp.linetv
+
+  - DOMAIN-SUFFIX,momo.dm
+  - DOMAIN-SUFFIX,momo5188.com
+  - DOMAIN-SUFFIX,momomall.com.tw
+  - DOMAIN-SUFFIX,momoshop.com.tw
+
+  # > myVideo
+  # USER-AGENT,myVideo*
+  - PROCESS-NAME,com.taiwanmobile.myVideo
+  - PROCESS-NAME,com.taiwanmobile.myVideotv
+  - DOMAIN-SUFFIX,myvideo.net.tw
+  - DOMAIN-SUFFIX,catch.net.tw
+  - DOMAIN,applemediaservice.keydelivery.southeastasia.media.azure.net
+  - DOMAIN,akamaiendpoint-applemediaservice-aase.streaming.media.azure.net
+
+  - DOMAIN,hamifans.emome.net
+  - DOMAIN-SUFFIX,skyking.com.tw
