@@ -29,7 +29,7 @@ for rawresult in [rawAFP, rawBloomberg, rawFlipBoard, rawHuffpost, rawNYPost, ra
 result_text = '\n'.join(result)
 
 try:
-    with open("./Clash/NewsMedia.yaml", "w") as f:
+    with open("./Clash/News.yaml", "w") as f:
         f.write(result_text)
 except IOError as e:
     print("Error occurred when writing to file:", e)
