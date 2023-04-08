@@ -46,7 +46,6 @@ rawViuTV = ""
 rawWeTV = ""
 rawWikimedia = ""
 rawWikipedia = ""
-rawYandex = ""
 
 print("Fetching remote resources")
 
@@ -98,14 +97,13 @@ try:
     rawWeTV = requests.get("https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/WeTV/WeTV.yaml").text
     rawWikimedia = requests.get("https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Wikimedia/Wikimedia.yaml").text
     rawWikipedia = requests.get("https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Wikipedia/Wikipedia.yaml").text
-    rawYandex = requests.get("https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Yandex/Yandex.yaml").text
 except requests.exceptions.RequestException as e:
     print("Error occurred when requesting remote resources:", e)
 
 print("Processing fetched resources and writing to file")
 
 result = ['payload:']
-for rawresult in [rawAmazon, rawApkpure, rawBiliBiliIntl, raw币安交易所, rawCIBN互联网电视, rawCableTV, rawCake, rawCrunchyroll, rawCloudflare, rawCryptocurrency, rawDAZN, rawDailymotion, rawDiscoveryPlus, rawDisqus, rawDubox, rawDropbox, raweBay, rawEmojipedia, rawFOXNOW, rawFOXPlus, rawFox, rawGitBook, rawGitHub, rawIMDB, rawiQIYIIntl, rawITV, rawImgur, rawLastFM, rawMEGA, rawMozilla, rawMUBI, rawNTPService, rawOvercast, rawParamountPlus, rawPikPak, rawShopee, rawShopify, rawSpeedtest, rawStarPlus, rawThomsonReuters, rawTikTok, rawTwitch, rawViuTV, rawWeTV, rawWikimedia, rawWikipedia, rawYandex]:
+for rawresult in [rawAmazon, rawApkpure, rawBiliBiliIntl, raw币安交易所, rawCIBN互联网电视, rawCableTV, rawCake, rawCrunchyroll, rawCloudflare, rawCryptocurrency, rawDAZN, rawDailymotion, rawDiscoveryPlus, rawDisqus, rawDubox, rawDropbox, raweBay, rawEmojipedia, rawFOXNOW, rawFOXPlus, rawFox, rawGitBook, rawGitHub, rawIMDB, rawiQIYIIntl, rawITV, rawImgur, rawLastFM, rawMEGA, rawMozilla, rawMUBI, rawNTPService, rawOvercast, rawParamountPlus, rawPikPak, rawShopee, rawShopify, rawSpeedtest, rawStarPlus, rawThomsonReuters, rawTikTok, rawTwitch, rawViuTV, rawWeTV, rawWikimedia, rawWikipedia]:
     result.extend([item.rstrip() for item in rawresult.split('\n') if not (item.startswith('#') or item.startswith('payload:'))])
 result_text = '\n'.join(result)
 
