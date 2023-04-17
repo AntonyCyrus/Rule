@@ -1,5 +1,5 @@
 # Mail.list
-# Generated at 2023-04-17 04:12:46
+# Generated at 2023-04-17 13:13:50
 
 DOMAIN,imap-mail.outlook.com
 DOMAIN,imap.gmail.com
@@ -10,8 +10,6 @@ DOMAIN,smtp.gmail.com
 DOMAIN,smtp.office365.com
 DOMAIN-SUFFIX,apple.imap.mail.yahoo.com
 DOMAIN-SUFFIX,m.hotmail.com
-DOMAIN-SUFFIX,mail.icloud.com.cn
-DOMAIN-SUFFIX,mail.me.com
 DOMAIN-SUFFIX,pm.me
 DOMAIN-SUFFIX,proton.me
 DOMAIN-SUFFIX,protonmail.ch
