@@ -16,7 +16,7 @@ urls = [
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/LiTV/LiTV.list",
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/LineTV/LineTV.list",
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/MOMOShop/MOMOShop.list",
-    "https://raw.githubusercontent.com/HotKids/Rules/master/QuantumultX/RULE-SET/myVideo.list",
+    "https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Filter/myVideo.list",
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/TaiWanGood/TaiWanGood.list"
 ]
 
