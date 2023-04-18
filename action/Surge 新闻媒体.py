@@ -29,7 +29,7 @@ now = datetime.now(tz)
 time_str = now.strftime("%Y-%m-%d %H:%M:%S")
 
 # 拼接要写入文件的字符串
-result_text = "# Music.list\n# Generated at " + time_str + "\n\n" + "\n".join(result) + "\n\n# This configuration file has been generated successfully."
+result_text = "# News.list\n# Generated at " + time_str + "\n\n" + "\n".join(result) + "\n\n# This configuration file has been generated successfully."
 
 # 将字符串写入文件
 with open("./Surge/News.list", "w", encoding="utf-8") as f:
