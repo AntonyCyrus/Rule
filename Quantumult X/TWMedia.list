@@ -1,5 +1,5 @@
 # TWMedia.list
-# Generated at 2023-04-18 16:12:36
+# Generated at 2023-04-18 16:37:53
 
 HOST-SUFFIX,bahamut.akamaized.net,Bahamut
 HOST-SUFFIX,bahamut.com.tw,Bahamut
@@ -74,7 +74,11 @@ HOST-SUFFIX,momo.dm,MOMOShop
 HOST-SUFFIX,momo5188.com,MOMOShop
 HOST-SUFFIX,momomall.com.tw,MOMOShop
 HOST-SUFFIX,momoshop.com.tw,MOMOShop
-404: Not Found
+USER-AGENT,myVideo*,myVideo
+DOMAIN-SUFFIX,myvideo.net.tw,myVideo
+DOMAIN-SUFFIX,catch.net.tw,myVideo
+DOMAIN,applemediaservice.keydelivery.southeastasia.media.azure.net,myVideo
+DOMAIN,akamaiendpoint-applemediaservice-aase.streaming.media.azure.net,myVideo
 HOST,hamifans.emome.net,TaiWanGood
 HOST-SUFFIX,skyking.com.tw,TaiWanGood
 USER-AGENT,TaiwanGood*,TaiWanGood
