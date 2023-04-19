@@ -1,5 +1,5 @@
 # GlobalMedia.list
-# Generated at 2023-04-19 04:13:48
+# Generated at 2023-04-20 04:13:44
 
 HOST-SUFFIX,a2z.com,Amazon
 HOST-SUFFIX,a2z.org.cn,Amazon
@@ -1499,6 +1499,7 @@ HOST-KEYWORD,tiktok,TikTok
 USER-AGENT,TikTok*,TikTok
 HOST-SUFFIX,ext-twitch.tv,Twitch
 HOST-SUFFIX,jtvnw.net,Twitch
+HOST-SUFFIX,live-video.net,Twitch
 HOST-SUFFIX,ttvnw.net,Twitch
 HOST-SUFFIX,twitch-ext.rootonline.de,Twitch
 HOST-SUFFIX,twitch.tv,Twitch

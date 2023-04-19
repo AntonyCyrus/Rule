@@ -1,5 +1,5 @@
 # GlobalMedia.list
-# Generated at 2023-04-19 04:14:24
+# Generated at 2023-04-20 04:14:08
 
 DOMAIN-SUFFIX,a2z.com
 DOMAIN-SUFFIX,a2z.org.cn
@@ -1506,6 +1506,7 @@ USER-AGENT,TikTok*
 PROCESS-NAME,com.zhiliaoapp.musically
 DOMAIN-SUFFIX,ext-twitch.tv
 DOMAIN-SUFFIX,jtvnw.net
+DOMAIN-SUFFIX,live-video.net
 DOMAIN-SUFFIX,ttvnw.net
 DOMAIN-SUFFIX,twitch-ext.rootonline.de
 DOMAIN-SUFFIX,twitch.tv
