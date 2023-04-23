@@ -1,5 +1,5 @@
 # Music.list
-# Generated at 2023-04-24 00:44:29
+# Generated at 2023-04-24 00:43:28
 
 DOMAIN-SUFFIX,deezer.com
 DOMAIN-SUFFIX,dzcdn.net
@@ -63,10 +63,9 @@ DOMAIN-SUFFIX,spotilocal.com
 DOMAIN-SUFFIX,tospotify.com
 DOMAIN-KEYWORD,-spotify-com
 DOMAIN-KEYWORD,spotify.com
+USER-AGENT,Spotify*
 IP-CIDR,104.154.127.126/32,no-resolve
 IP-CIDR,35.186.224.47/32,no-resolve
-USER-AGENT,Spotify*
-PROCESS-NAME,com.spotify.music
 DOMAIN-SUFFIX,tidal-cms.s3.amazonaws.com
 DOMAIN-SUFFIX,tidal.com
 DOMAIN-SUFFIX,tidalhifi.com
