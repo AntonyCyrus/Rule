@@ -1,5 +1,5 @@
 # USMedia.list
-# Generated at 2023-04-24 00:30:01
+# Generated at 2023-04-24 00:28:57
 
 DOMAIN-SUFFIX,9cdn.net
 DOMAIN-SUFFIX,9nation.com.au
@@ -134,8 +134,6 @@ DOMAIN-SUFFIX,viacom.com
 DOMAIN-SUFFIX,viacomcbs.com
 DOMAIN-SUFFIX,viacomcbspressexpress.com
 USER-AGENT,PPlus*
-PROCESS-NAME,com.cbs.app
-PROCESS-NAME,com.showtime.standalone
 DOMAIN-SUFFIX,cnn.com
 DOMAIN-SUFFIX,cnn.io
 DOMAIN-SUFFIX,cnn.it
@@ -150,8 +148,6 @@ DOMAIN,edge.cwtv-vod-ext.top.comcast.net
 DOMAIN-SUFFIX,cwseed.com
 DOMAIN-SUFFIX,cwtv.com
 DOMAIN-SUFFIX,thecwvideo.com
-PROCESS-NAME,com.cw.fullepisodes.android
-PROCESS-NAME,com.cw.seed.android
 DOMAIN,espn.api.edge.bamgrid.com
 DOMAIN,espn.hb.omtrdc.net
 DOMAIN,espndotcom.tt.omtrdc.net
@@ -172,7 +168,6 @@ DOMAIN-SUFFIX,hbomaxdash.s.llnwi.net
 DOMAIN-SUFFIX,hbonow.com
 DOMAIN-SUFFIX,maxgo.com
 USER-AGENT,HBOMAX*
-PROCESS-NAME,com.hbo.hbonow
 DOMAIN-SUFFIX,112263.com
 DOMAIN-SUFFIX,assetshuluimcom-a.akamaihd.net
 DOMAIN-SUFFIX,callhulu.com
@@ -225,7 +220,6 @@ DOMAIN-SUFFIX,prod.hjholdings.tv
 DOMAIN-SUFFIX,registerhulu.com
 DOMAIN-SUFFIX,thehulubraintrust.com
 DOMAIN-SUFFIX,wwwhuluplus.com
-PROCESS-NAME,com.hulu.plus
 // 此条分流只是让 Star+ 串流时走 US 节点，需搭配 Star+ 相关分流使用
 DOMAIN-SUFFIX,media.starott.com
 DOMAIN-SUFFIX,dishworld.com
