@@ -1,5 +1,5 @@
 # SocialMedia.list
-# Generated at 2023-04-24 00:22:45
+# Generated at 2023-04-24 00:22:22
 
 DOMAIN,clubhouse.pubnub.com
 DOMAIN,clubhouseprod.s3.amazonaws.com
@@ -697,6 +697,7 @@ DOMAIN-SUFFIX,zuckerberg.com
 DOMAIN-SUFFIX,zuckerberg.net
 DOMAIN-KEYWORD,facebook
 DOMAIN-KEYWORD,fbcdn
+IP-ASN,32934,no-resolve
 IP-CIDR,108.168.176.192/26,no-resolve
 IP-CIDR,108.168.177.0/27,no-resolve
 IP-CIDR,108.168.180.96/27,no-resolve
@@ -720,7 +721,6 @@ IP-CIDR,54.162.243.80/32,no-resolve
 IP-CIDR,54.173.34.141/32,no-resolve
 IP-CIDR,54.235.23.242/32,no-resolve
 IP-CIDR,54.93.124.31/32,no-resolve
-IP-ASN,32934,no-resolve
 DOMAIN-SUFFIX,achat-followers-instagram.com
 DOMAIN-SUFFIX,acheter-followers-instagram.com
 DOMAIN-SUFFIX,acheterdesfollowersinstagram.com
