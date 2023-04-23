@@ -1,5 +1,5 @@
 # KRMedia.list
-# Generated at 2023-04-24 00:40:21
+# Generated at 2023-04-24 00:39:30
 
 DOMAIN,d17lx9ucc6k9fc.cloudfront.net
 DOMAIN,d3c7rimkq79yfu.cloudfront.net
@@ -32,6 +32,7 @@ DOMAIN-SUFFIX,plug.game
 DOMAIN-SUFFIX,pstatic.net
 DOMAIN-SUFFIX,smartmediarep.com
 DOMAIN-SUFFIX,webtoons.com
+USER-AGENT,LINE%20TV*
 IP-CIDR,101.101.160.0/20,no-resolve
 IP-CIDR,103.2.28.0/24,no-resolve
 IP-CIDR,103.2.30.0/23,no-resolve
@@ -65,8 +66,6 @@ IP-CIDR,203.104.158.0/24,no-resolve
 IP-CIDR,203.174.66.64/26,no-resolve
 IP-CIDR,203.174.77.0/24,no-resolve
 IP-CIDR6,2400:dcc0::/32,no-resolve
-USER-AGENT,LINE%20TV*
-PROCESS-NAME,com.linecorp.linetv
 DOMAIN-SUFFIX,naver.com
 DOMAIN-SUFFIX,smartmediarep.com
 USER-AGENT,Naver%20TV*
