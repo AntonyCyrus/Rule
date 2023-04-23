@@ -1,11 +1,10 @@
 # HKMedia.list
-# Generated at 2023-04-24 00:53:18
+# Generated at 2023-04-24 00:52:49
 
 DOMAIN-SUFFIX,joox.com
 DOMAIN-KEYWORD,jooxweb-api
 USER-AGENT,JOOX*
 USER-AGENT,WeMusic*
-PROCESS-NAME,com.tencent.ibg.joox
 DOMAIN-SUFFIX,moov.hk
 DOMAIN-SUFFIX,mtg.now.com
 DOMAIN,mytvsuperlimited.hb.omtrdc.net
