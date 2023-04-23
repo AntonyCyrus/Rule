@@ -1,5 +1,5 @@
 # GlobalMedia.list
-# Generated at 2023-04-24 00:15:57
+# Generated at 2023-04-24 00:15:11
 
 DOMAIN-SUFFIX,a2z.com
 DOMAIN-SUFFIX,a2z.org.cn
@@ -207,6 +207,9 @@ DOMAIN-SUFFIX,yamaxun.com
 DOMAIN-SUFFIX,z.cn
 DOMAIN-SUFFIX,zappos
 DOMAIN-KEYWORD,avoddashs
+USER-AGENT,InstantVideo.US*
+USER-AGENT,Prime%20Video*
+URL-REGEX,^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/
 IP-CIDR,13.32.0.0/15,no-resolve
 IP-CIDR,13.35.0.0/17,no-resolve
 IP-CIDR,18.184.0.0/15,no-resolve
@@ -222,10 +225,6 @@ IP-CIDR,54.156.0.0/14,no-resolve
 IP-CIDR,54.226.0.0/15,no-resolve
 IP-CIDR,54.230.156.0/22,no-resolve
 IP-CIDR,54.93.0.0/16,no-resolve
-USER-AGENT,InstantVideo.US*
-USER-AGENT,Prime%20Video*
-URL-REGEX,^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/
-PROCESS-NAME,com.amazon.avod.thirdpartyclient
 DOMAIN-SUFFIX,apkpure.com
 DOMAIN-SUFFIX,cdnpure.com
 DOMAIN-SUFFIX,pureapk.com
@@ -237,7 +236,6 @@ DOMAIN,upos-bstar-mirrorakam.akamaized.net
 DOMAIN,upos-bstar1-mirrorakam.akamaized.net
 DOMAIN-SUFFIX,bilibili.tv
 DOMAIN-SUFFIX,biliintl.com
-PROCESS-NAME,com.bstar.intl
 DOMAIN-SUFFIX,appsflayer.com
 DOMAIN-SUFFIX,binance.cc
 DOMAIN-SUFFIX,binance.charity
@@ -1222,8 +1220,6 @@ IP-CIDR,23.211.15.0/24,no-resolve
 IP-CIDR,23.219.172.0/24,no-resolve
 IP-CIDR,23.40.242.10/32,no-resolve
 IP-CIDR,23.59.252.0/24,no-resolve
-PROCESS-NAME,com.iqiyi.i18n
-PROCESS-NAME,com.iqiyi.i18n.tv
 DOMAIN,itvpnpmobile-a.akamaihd.net
 DOMAIN-SUFFIX,itv.com
 DOMAIN-SUFFIX,itvstatic.com
@@ -1274,7 +1270,6 @@ IP-CIDR6,2a0b:e42:1::/48,no-resolve
 IP-CIDR6,2a0b:e43:1::/48,no-resolve
 IP-CIDR6,2a0b:e44:1::/48,no-resolve
 IP-CIDR6,2a0b:e45:1::/48,no-resolve
-PROCESS-NAME,mega.privacy.android.app
 DOMAIN-SUFFIX,bugzilla.org
 DOMAIN-SUFFIX,crates.io
 DOMAIN-SUFFIX,developer.allizom.org
@@ -1503,7 +1498,6 @@ DOMAIN-SUFFIX,tiktokv.com
 DOMAIN-KEYWORD,musical.ly
 DOMAIN-KEYWORD,tiktok
 USER-AGENT,TikTok*
-PROCESS-NAME,com.zhiliaoapp.musically
 DOMAIN-SUFFIX,ext-twitch.tv
 DOMAIN-SUFFIX,jtvnw.net
 DOMAIN-SUFFIX,live-video.net
@@ -1525,7 +1519,6 @@ IP-CIDR,52.223.208.0/21,no-resolve
 IP-CIDR,52.223.224.0/19,no-resolve
 IP-CIDR,99.181.64.0/18,no-resolve
 IP-CIDR6,2402:2a80::/32,no-resolve
-PROCESS-NAME,tv.twitch.android.app
 DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com
 DOMAIN-SUFFIX,d1k2us671qcoau.cloudfront.net
 DOMAIN-SUFFIX,d2anahhhmp1ffz.cloudfront.net
@@ -1535,9 +1528,6 @@ DOMAIN-SUFFIX,viu.com
 DOMAIN-SUFFIX,viu.now.com
 DOMAIN-SUFFIX,viu.tv
 USER-AGENT,Viu*
-PROCESS-NAME,com.viu.pad
-PROCESS-NAME,com.viu.phone
-PROCESS-NAME,com.vuclip.viu
 DOMAIN-SUFFIX,iflix-images.akamaized.net
 DOMAIN-SUFFIX,iflix.com
 DOMAIN-SUFFIX,v.smtcdns.com
@@ -1545,10 +1535,8 @@ DOMAIN-SUFFIX,v.smtcdns.net
 DOMAIN-SUFFIX,vv.video.qq.com
 DOMAIN-SUFFIX,wetv.vip
 DOMAIN-SUFFIX,wetvinfo.com
-IP-CIDR,150.109.28.51/32,no-resolve
 USER-AGENT,WeTV*
-PROCESS-NAME,com.tencent.qqlivei18n
-PROCESS-NAME,com.tencent.qqlivei18n.us
+IP-CIDR,150.109.28.51/32,no-resolve
 DOMAIN-SUFFIX,mediawiki.org
 DOMAIN-SUFFIX,toolforge.org
 DOMAIN-SUFFIX,w.wiki
