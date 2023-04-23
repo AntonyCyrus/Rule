@@ -1,5 +1,5 @@
 # TWMedia.list
-# Generated at 2023-04-23 22:07:08
+# Generated at 2023-04-23 22:06:47
 
 DOMAIN-SUFFIX,bahamut.akamaized.net
 DOMAIN-SUFFIX,bahamut.com.tw
@@ -70,7 +70,6 @@ DOMAIN-SUFFIX,line-scdn.net
 DOMAIN-SUFFIX,linetv.tw
 USER-AGENT,LINE%20TV*
 USER-AGENT,LINE*
-PROCESS-NAME,com.linecorp.linetv
 DOMAIN-SUFFIX,momo.dm
 DOMAIN-SUFFIX,momo5188.com
 DOMAIN-SUFFIX,momomall.com.tw
