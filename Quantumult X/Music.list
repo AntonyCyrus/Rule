@@ -1,5 +1,5 @@
 # Music.list
-# Generated at 2023-04-27 04:12:42
+# Generated at 2023-04-28 04:13:47
 
 HOST-SUFFIX,deezer.com,Deezer
 HOST-SUFFIX,dzcdn.net,Deezer
@@ -66,7 +66,7 @@ HOST-SUFFIX,spotifyjobs.com,Spotify
 HOST-SUFFIX,spotifynewsroom.jp,Spotify
 HOST-SUFFIX,spotilocal.com,Spotify
 HOST-SUFFIX,tospotify.com,Spotify
-HOST-KEYWORD,-spotify-com,Spotify
+HOST-KEYWORD,-spotify-,Spotify
 HOST-KEYWORD,spotify.com,Spotify
 USER-AGENT,Spotify*,Spotify
 IP-CIDR,104.154.127.126/32,Spotify

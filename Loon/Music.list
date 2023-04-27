@@ -1,5 +1,5 @@
 # Music.list
-# Generated at 2023-04-27 04:12:17
+# Generated at 2023-04-28 04:13:22
 
 DOMAIN-SUFFIX,deezer.com
 DOMAIN-SUFFIX,dzcdn.net
@@ -61,7 +61,7 @@ DOMAIN-SUFFIX,spotifyjobs.com
 DOMAIN-SUFFIX,spotifynewsroom.jp
 DOMAIN-SUFFIX,spotilocal.com
 DOMAIN-SUFFIX,tospotify.com
-DOMAIN-KEYWORD,-spotify-com
+DOMAIN-KEYWORD,-spotify-
 DOMAIN-KEYWORD,spotify.com
 USER-AGENT,Spotify*
 IP-CIDR,104.154.127.126/32,no-resolve
