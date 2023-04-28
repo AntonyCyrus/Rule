@@ -8,6 +8,7 @@ result = []
 urls = [
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Duckduckgo/Duckduckgo.list",
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Yandex/Yandex.list"
+    "https://raw.githubusercontent.com/AntonyCyrus/Rule/main/Quantumult%20X/OtherSearchEngie.list"
 ]
 
 # 遍历链接列表，依次请求链接内容并将结果保存到 result 列表中
