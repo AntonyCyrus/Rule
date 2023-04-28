@@ -7,7 +7,7 @@ result = []
 # 定义需要请求的链接
 urls = [
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Duckduckgo/Duckduckgo.list",
-    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Yandex/Yandex.list"
+    ""
     "https://raw.githubusercontent.com/AntonyCyrus/Rule/main/Quantumult%20X/OtherSearchEngie.list"
 ]
 
