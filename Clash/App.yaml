@@ -1,0 +1,12 @@
+payload:
+  - PROCESS-NAME,AliIM.exe
+  - PROCESS-NAME,AutoOff.exe
+  - PROCESS-NAME,avpui.exe
+  - PROCESS-NAME,BaiduNetdisk.exe
+  - PROCESS-NAME,EXCEL.EXE
+  - PROCESS-NAME,flux.exe
+  - PROCESS-NAME,POWERPNT.EXE
+  - PROCESS-NAME,QQMusic.exe
+  - PROCESS-NAME,TIM.exe
+  - PROCESS-NAME,WeChat.exe
+  - PROCESS-NAME,WINWORD.EXE
