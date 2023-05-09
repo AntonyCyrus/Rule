@@ -1,51 +1,51 @@
 # HKMedia.list
-# Generated at 2023-05-10 05:23:40
+# Generated at 2023-05-10 05:27:18
 
-DOMAIN-SUFFIX,pccwglobal.com
-DOMAIN-SUFFIX,nowe.com
-USER-AGENT,WeMusic*
-DOMAIN,mytvsuperlimited.hb.omtrdc.net
-DOMAIN-SUFFIX,hktshop.com
-DOMAIN-SUFFIX,segment.io
-DOMAIN-SUFFIX,viu.com
-DOMAIN-SUFFIX,joox.com
-DOMAIN-SUFFIX,youboranqs01.com
-DOMAIN,pccw-cf-video.akamaized.net
-DOMAIN-SUFFIX,now.com
-DOMAIN-SUFFIX,hkt-enterprise.com
-DOMAIN-SUFFIX,hktpremier.com
-DOMAIN-SUFFIX,nowestatic.com
-DOMAIN-SUFFIX,hkcsl.com
-DOMAIN-SUFFIX,viu.tv
-DOMAIN,pccw-live-cdn-01.akamaized.net
-DOMAIN-KEYWORD,rthklive
-DOMAIN-SUFFIX,1010.com.hk
-DOMAIN-KEYWORD,nowtv100
-DOMAIN-SUFFIX,now-ashare.com
-DOMAIN-SUFFIX,now.com.hk
-USER-AGENT,JOOX*
-DOMAIN-SUFFIX,pccwsolutions.com
-DOMAIN-SUFFIX,mtg.now.com
-DOMAIN-SUFFIX,hkteducation.com
 DOMAIN-SUFFIX,mytvsuper.com
+DOMAIN-SUFFIX,youboranqs01.com
+DOMAIN-SUFFIX,hkt.com
+USER-AGENT,mytv*
+DOMAIN-SUFFIX,mtg.now.com
+DOMAIN-SUFFIX,now-tv.com
+DOMAIN-SUFFIX,now.com.hk
+USER-AGENT,WeMusic*
+DOMAIN-SUFFIX,pccw.com
+404: Not Found
+DOMAIN-SUFFIX,1010.com.hk
+DOMAIN-SUFFIX,now.com
+DOMAIN-SUFFIX,joox.com
+DOMAIN-KEYWORD,nowtv100
 DOMAIN-SUFFIX,d1k2us671qcoau.cloudfront.net
+DOMAIN-KEYWORD,rthklive
+DOMAIN-SUFFIX,pccwglobal.com
 DOMAIN-SUFFIX,netvigator.com
+DOMAIN-SUFFIX,hkt-enterprise.com
+DOMAIN-SUFFIX,nowestatic.com
+DOMAIN,mytvsuperlimited.hb.omtrdc.net
+DOMAIN-SUFFIX,hktpremier.com
+DOMAIN-SUFFIX,segment.io
+DOMAIN-SUFFIX,nowe.com
+PROCESS-NAME,com.tencent.ibg.joox
+DOMAIN,pccw-cf-video.akamaized.net
+DOMAIN-KEYWORD,jooxweb-api
+DOMAIN-SUFFIX,uhub.com
+DOMAIN-SUFFIX,now-ashare.com
+DOMAIN-SUFFIX,theclub.com.hk
+DOMAIN-SUFFIX,pccwsolutions.com
+DOMAIN,pccw-live-cdn-01.akamaized.net
 DOMAIN,d2anahhhmp1ffz.cloudfront.net
+DOMAIN-SUFFIX,hktshop.com
+DOMAIN-SUFFIX,hkcsl.com
+DOMAIN,mytvsuperlimited.sc.omtrdc.net
+DOMAIN-SUFFIX,hkteducation.com
+USER-AGENT,JOOX*
+DOMAIN-SUFFIX,nowe.hk
+DOMAIN-SUFFIX,viu.tv
+DOMAIN-SUFFIX,esmarthealth.com
 DOMAIN-SUFFIX,hkt-eye.com
 DOMAIN-SUFFIX,moov.hk
 DOMAIN-SUFFIX,tvb.com
-DOMAIN-SUFFIX,pccw.com
-USER-AGENT,mytv*
+DOMAIN-SUFFIX,viu.com
 DOMAIN-SUFFIX,dfp6rglgjqszk.cloudfront.net
-DOMAIN-SUFFIX,esmarthealth.com
-DOMAIN-SUFFIX,now-tv.com
-DOMAIN-SUFFIX,theclub.com.hk
-404: Not Found
-PROCESS-NAME,com.tencent.ibg.joox
-DOMAIN-SUFFIX,uhub.com
-DOMAIN,mytvsuperlimited.sc.omtrdc.net
-DOMAIN-SUFFIX,hkt.com
-DOMAIN-KEYWORD,jooxweb-api
-DOMAIN-SUFFIX,nowe.hk
 
 # This configuration file has been generated successfully.
