@@ -6,6 +6,7 @@ rawmyTVSUPER = ""
 rawNowE = ""
 rawPCCW = ""
 rawTVB = ""
+rawViuTV = ""
 try:
     rawJOOX = requests.get("https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/JOOX/JOOX.yaml").text
     rawMOOV = requests.get("https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/MOOV/MOOV.yaml").text
@@ -13,11 +14,12 @@ try:
     rawNowE = requests.get("https://raw.githubusercontent.com/AntonyCyrus/Rule/main/Clash/NowE.yaml").text
     rawPCCW = requests.get("https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PCCW/PCCW.yaml").text
     rawTVB = requests.get("https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TVB/TVB.yaml").text
+    rawViuTV = requests.get("https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ViuTV/ViuTV.yaml").text
 except requests.exceptions.RequestException as e:
     print("Error occurred when requesting remote resources:", e)
 
 result = ['payload:']
-for rawresult in [rawJOOX, rawMOOV, rawmyTVSUPER, rawNowE, rawPCCW, rawTVB]:
+for rawresult in [rawJOOX, rawMOOV, rawmyTVSUPER, rawNowE, rawPCCW, rawTVB, rawViuTV]:
     result.extend([item.rstrip() for item in rawresult.split('\n') if not (item.startswith('#') or item.startswith('payload:'))])
 result_text = '\n'.join(result)
 
