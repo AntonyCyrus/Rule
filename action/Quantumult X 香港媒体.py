@@ -11,7 +11,8 @@ urls = [
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/myTVSUPER/myTVSUPER.list",
     "https://raw.githubusercontent.com/AntonyCyrus/Rule/main/NowE.list",
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/PCCW/PCCW.list",
-    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/TVB/TVB.list"
+    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/TVB/TVB.list",
+    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/ViuTV/ViuTV.list"
 ]
 
 # 遍历链接列表，依次请求链接内容并将结果保存到 result 列表中
