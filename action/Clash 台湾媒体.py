@@ -30,8 +30,13 @@ except requests.exceptions.RequestException as e:
     print("Error occurred when requesting remote resources:", e)
 
 result = ['payload:']
+unique_lines = set()
 for rawresult in [rawBahamut, rawCatchplay, rawFriDay, rawHBOAsia, rawHamiVideo, rawKKBOX, rawKKTV, rawLiTV, rawLineTV, rawMOMOShop, rawmyVideo, rawTaiWanGood]:
-    result.extend([item.rstrip() for item in rawresult.split('\n') if not (item.startswith('#') or item.startswith('payload:'))])
+    for item in rawresult.split('\n'):
+        if item.startswith('#') or item.startswith('payload:') or item in unique_lines:
+            continue
+        result.append(item.rstrip())
+        unique_lines.add(item)
 result_text = '\n'.join(result)
 
 try:
