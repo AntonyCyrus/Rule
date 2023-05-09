@@ -35,7 +35,6 @@ payload:
   - DOMAIN-SUFFIX,static-qobuz.com
   - IP-CIDR,52.211.1.180/32
   - IP-CIDR,99.81.97.56/32
-
   - DOMAIN,audio4-ak-spotify-com.akamaized.net
   - DOMAIN,heads-ak-spotify-com.akamaized.net
   - DOMAIN,spotify.com.edgesuite.net
@@ -65,7 +64,6 @@ payload:
   - IP-CIDR,104.154.127.126/32
   - IP-CIDR,35.186.224.47/32
   - PROCESS-NAME,com.spotify.music
-
   - DOMAIN-SUFFIX,tidal-cms.s3.amazonaws.com
   - DOMAIN-SUFFIX,tidal.com
   - DOMAIN-SUFFIX,tidalhifi.com
