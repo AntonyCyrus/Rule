@@ -11,7 +11,8 @@ urls = [
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/myTVSUPER/myTVSUPER.list",
     "https://raw.githubusercontent.com/AntonyCyrus/Rule/main/Loon/NowE.list",
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/PCCW/PCCW.list",
-    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/TVB/TVB.list"
+    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/TVB/TVB.list",
+    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ViuTV/ViuTV.list"
 ]
 
 # 遍历链接列表，依次请求链接内容并将结果保存到 result 列表中
@@ -21,6 +22,9 @@ for url in urls:
         result.extend([item for item in raw.split("\n") if item.strip() and not item.startswith('#')])
     except requests.exceptions.RequestException as e:
         print("Error getting data:", e)
+
+# 去除重复的行
+result = list(set(result))
 
 # 获取当前时间并格式化
 tz = pytz.timezone('Asia/Shanghai')
