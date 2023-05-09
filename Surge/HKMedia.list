@@ -1,51 +1,51 @@
 # HKMedia.list
-# Generated at 2023-05-10 05:30:38
+# Generated at 2023-05-10 05:33:59
 
-DOMAIN-SUFFIX,viu.tv
-DOMAIN,pccw-live-cdn-01.akamaized.net
-DOMAIN-SUFFIX,hktshop.com
-DOMAIN-SUFFIX,mtg.now.com
-USER-AGENT,JOOX*
-DOMAIN-SUFFIX,dfp6rglgjqszk.cloudfront.net
-DOMAIN-SUFFIX,theclub.com.hk
-USER-AGENT,WeMusic*
-DOMAIN-SUFFIX,hkt-enterprise.com
-DOMAIN-SUFFIX,joox.com
-DOMAIN-SUFFIX,now-ashare.com
-DOMAIN-SUFFIX,youboranqs01.com
-DOMAIN-SUFFIX,d1k2us671qcoau.cloudfront.net
-DOMAIN-SUFFIX,hkt-eye.com
-DOMAIN-SUFFIX,hktpremier.com
-DOMAIN-SUFFIX,now-tv.com
-DOMAIN-SUFFIX,pccw.com
-DOMAIN-SUFFIX,nowe.hk
-DOMAIN-SUFFIX,1010.com.hk
-DOMAIN-SUFFIX,netvigator.com
-DOMAIN-SUFFIX,hkcsl.com
-DOMAIN-SUFFIX,hkt.com
-DOMAIN-SUFFIX,esmarthealth.com
-DOMAIN-KEYWORD,nowtv100
-DOMAIN-SUFFIX,pccwglobal.com
-DOMAIN-KEYWORD,jooxweb-api
-DOMAIN-SUFFIX,mytvsuper.com
-DOMAIN,mytvsuperlimited.sc.omtrdc.net
-DOMAIN-SUFFIX,nowe.com
-DOMAIN-KEYWORD,rthklive
-PROCESS-NAME,com.tencent.ibg.joox
-DOMAIN-SUFFIX,viu.com
-DOMAIN,mytvsuperlimited.hb.omtrdc.net
-DOMAIN-SUFFIX,nowestatic.com
-DOMAIN,d2anahhhmp1ffz.cloudfront.net
-DOMAIN-SUFFIX,uhub.com
-DOMAIN-SUFFIX,now.com
-USER-AGENT,mytv*
-DOMAIN-SUFFIX,tvb.com
 DOMAIN,pccw-cf-video.akamaized.net
+DOMAIN-SUFFIX,tvb.com
+DOMAIN-SUFFIX,hkt-eye.com
+DOMAIN-SUFFIX,pccwglobal.com
+DOMAIN-SUFFIX,nowestatic.com
 DOMAIN-SUFFIX,pccwsolutions.com
-DOMAIN-SUFFIX,moov.hk
-404: Not Found
+DOMAIN,d2anahhhmp1ffz.cloudfront.net
+DOMAIN-SUFFIX,youboranqs01.com
+DOMAIN-SUFFIX,joox.com
+DOMAIN-SUFFIX,mytvsuper.com
+DOMAIN-KEYWORD,rthklive
+DOMAIN-KEYWORD,nowtv100
 DOMAIN-SUFFIX,segment.io
-DOMAIN-SUFFIX,hkteducation.com
+DOMAIN,mytvsuperlimited.hb.omtrdc.net
+DOMAIN-SUFFIX,hkcsl.com
+DOMAIN-SUFFIX,now.com
+DOMAIN-SUFFIX,nowe.com
+DOMAIN-SUFFIX,hktshop.com
+DOMAIN-SUFFIX,pccw.com
+DOMAIN-SUFFIX,hkt.com
+USER-AGENT,JOOX*
+USER-AGENT,mytv*
+DOMAIN,pccw-live-cdn-01.akamaized.net
+DOMAIN-SUFFIX,d1k2us671qcoau.cloudfront.net
+DOMAIN-SUFFIX,esmarthealth.com
+DOMAIN,mytvsuperlimited.sc.omtrdc.net
+DOMAIN-SUFFIX,uhub.com
+DOMAIN-SUFFIX,viu.com
+DOMAIN-KEYWORD,jooxweb-api
+DOMAIN-SUFFIX,hkt-enterprise.com
+DOMAIN-SUFFIX,netvigator.com
 DOMAIN-SUFFIX,now.com.hk
+DOMAIN-SUFFIX,1010.com.hk
+DOMAIN-SUFFIX,theclub.com.hk
+DOMAIN-SUFFIX,dfp6rglgjqszk.cloudfront.net
+DOMAIN-SUFFIX,viu.tv
+DOMAIN-SUFFIX,nowe.hk
+DOMAIN-SUFFIX,now-ashare.com
+404: Not Found
+DOMAIN-SUFFIX,mtg.now.com
+USER-AGENT,WeMusic*
+DOMAIN-SUFFIX,now-tv.com
+DOMAIN-SUFFIX,hkteducation.com
+PROCESS-NAME,com.tencent.ibg.joox
+DOMAIN-SUFFIX,moov.hk
+DOMAIN-SUFFIX,hktpremier.com
 
 # This configuration file has been generated successfully.
