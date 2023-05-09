@@ -24,8 +24,13 @@ except requests.exceptions.RequestException as e:
 print("Processing fetched resources and writing to file")
 
 result = ['payload:']
+unique_lines = set()
 for rawresult in [rawAFP, rawBloomberg, rawFlipBoard, rawHuffpost, rawNYPost, rawNYTimes, rawVOA]:
-    result.extend([item.rstrip() for item in rawresult.split('\n') if not (item.startswith('#') or item.startswith('payload:'))])
+    for item in rawresult.split('\n'):
+        if item.startswith('#') or item.startswith('payload:') or item in unique_lines:
+            continue
+        result.append(item.rstrip())
+        unique_lines.add(item)
 result_text = '\n'.join(result)
 
 try:
