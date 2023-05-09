@@ -1,29 +1,33 @@
 import requests
 
-urls = [
-    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/JOOX/JOOX.yaml",
-    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/MOOV/MOOV.yaml",
-    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/myTVSUPER/myTVSUPER.yaml",
-    "https://raw.githubusercontent.com/AntonyCyrus/Rule/main/Clash/NowE.yaml",
-    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PCCW/PCCW.yaml",
-    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TVB/TVB.yaml",
-    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ViuTV/ViuTV.yaml"
-]
+rawJOOX = ""
+rawMOOV = ""
+rawmyTVSUPER = ""
+rawNowE = ""
+rawPCCW = ""
+rawTVB = ""
+rawViuTV = ""
 
-results = set()
+try:
+    rawJOOX = requests.get("https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/JOOX/JOOX.yaml").text
+    rawMOOV = requests.get("https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/MOOV/MOOV.yaml").text
+    rawmyTVSUPER = requests.get("https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/myTVSUPER/myTVSUPER.yaml").text
+    rawNowE = requests.get("https://raw.githubusercontent.com/AntonyCyrus/Rule/main/Clash/NowE.yaml").text
+    rawPCCW = requests.get("https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PCCW/PCCW.yaml").text
+    rawTVB = requests.get("https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TVB/TVB.yaml").text
+    rawViuTV = requests.get("https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ViuTV/ViuTV.yaml").text
+except requests.exceptions.RequestException as e:
+    print("Error occurred when requesting remote resources:", e)
 
-for url in urls:
-    try:
-        response = requests.get(url)
-        response.raise_for_status()
-        raw_result = response.text
-        # 去掉注释和 payload 标记，只保留规则内容
-        result_lines = [line.strip() for line in raw_result.split('\n') if line and not line.startswith(('#', 'payload:'))]
-        results.update(result_lines)
-    except requests.exceptions.RequestException as e:
-        print(f"Error occurred when requesting {url}: {e}")
-
-result_text = '\n'.join(['payload:'] + sorted(results))
+result = ['payload:']
+unique_lines = set()
+for rawresult in [rawJOOX, rawMOOV, rawmyTVSUPER, rawNowE, rawPCCW, rawTVB, rawViuTV]:
+    for item in rawresult.split('\n'):
+        if item.startswith('#') or item.startswith('payload:') or item in unique_lines:
+            continue
+        result.append(item.rstrip())
+        unique_lines.add(item)
+result_text = '\n'.join(result)
 
 try:
     with open("./Clash/HKMedia.yaml", "w") as f:
