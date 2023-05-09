@@ -30,8 +30,13 @@ except requests.exceptions.RequestException as e:
 
 # 处理变量数据
 result = ['payload:']
+unique_lines = set()
 for rawresult in [rawAbemaTV, rawDMM, rawHuluJP, rawNiconico, rawNikkei, rawNintendo, rawParavi, rawPixiv, rawPixnet, rawTver, rawU_NEXT]:
-    result.extend([item.rstrip() for item in rawresult.split('\n') if not (item.startswith('#') or item.startswith('payload:'))])
+    for item in rawresult.split('\n'):
+        if item.startswith('#') or item.startswith('payload:') or item in unique_lines:
+            continue
+        result.append(item.rstrip())
+        unique_lines.add(item)
 result_text = '\n'.join(result)
 
 # 写入文件
