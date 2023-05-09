@@ -53,13 +53,11 @@ payload:
   - DOMAIN-SUFFIX,wheel-soft.com
   - IP-CIDR,125.6.189.7/32
   - IP-CIDR,203.104.209.7/32
-
   - DOMAIN-SUFFIX,happyon.jp
   - DOMAIN-SUFFIX,hjholdings.jp
   - DOMAIN-SUFFIX,hulu.jp
   - DOMAIN-SUFFIX,streaks.jp
   - DOMAIN-SUFFIX,yb.uncn.jp
-
   - DOMAIN-SUFFIX,dmc.nico
   - DOMAIN-SUFFIX,nicodic.jp
   - DOMAIN-SUFFIX,nicomanga.jp
@@ -68,15 +66,12 @@ payload:
   - DOMAIN-SUFFIX,nicovideo.jp
   - DOMAIN-SUFFIX,nimg.jp
   - DOMAIN-SUFFIX,simg.jp
-  - DOMAIN-SUFFIX,socdm.com
-
   - DOMAIN-SUFFIX,nikkei-cnbc.co.jp
   - DOMAIN-SUFFIX,nikkei.co.jp
   - DOMAIN-SUFFIX,nikkei.com
   - DOMAIN-SUFFIX,nikkei.jp
   - DOMAIN-SUFFIX,nikkei4946.com
   - DOMAIN-SUFFIX,nikkeibp.co.jp
-
   - DOMAIN-SUFFIX,100classicbooks.com
   - DOMAIN-SUFFIX,ac-pocketcamp.com
   - DOMAIN-SUFFIX,amiibo.com
@@ -204,11 +199,9 @@ payload:
   - DOMAIN-SUFFIX,xn--mts47c3w9b1qr.net
   - DOMAIN-SUFFIX,yoshisnewisland.com
   - IP-CIDR,35.192.0.0/12
-
   # > Paravi
   # USER-AGENT,Paravi*
   - DOMAIN-SUFFIX,paravi.jp
-
   - DOMAIN-SUFFIX,ads-pixiv.net
   - DOMAIN-SUFFIX,booth.pm
   - DOMAIN-SUFFIX,fanbox.cc
@@ -218,7 +211,6 @@ payload:
   - DOMAIN-SUFFIX,pixiv.net
   - DOMAIN-SUFFIX,pixiv.org
   - DOMAIN-SUFFIX,pximg.net
-
   - DOMAIN-SUFFIX,pimg.tw
   - DOMAIN-SUFFIX,pixanalytics.com
   - DOMAIN-SUFFIX,pixfs.net
@@ -228,13 +220,11 @@ payload:
   - DOMAIN-SUFFIX,pixnet.pro
   - DOMAIN-SUFFIX,pixnet.tw
   - DOMAIN-SUFFIX,pixplug.in
-
   # > TVer
   - DOMAIN-SUFFIX,tver.jp
   - DOMAIN-SUFFIX,interactive-circle.jp
   - DOMAIN-SUFFIX,brightcove.com
   - DOMAIN-SUFFIX,prod.boltdns.net
-
   # > U-NEXT
   - PROCESS-NAME,jp.unext.mediaplayer
   - PROCESS-NAME,jp.unext.tv.player
