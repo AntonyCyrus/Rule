@@ -18,6 +18,7 @@ rawOreilly = ""
 rawPBS = ""
 rawPeacock = ""
 rawViki = ""
+
 try:
   rawGoogleVoice= requests.get("https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleVoice/GoogleVoice.yaml").text
   raw9News= requests.get("https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/9News/9News.yaml").text
@@ -42,8 +43,13 @@ except requests.exceptions.RequestException as e:
     print("Error occurred when requesting remote resources:", e)
 
 result = ['payload:']
+unique_lines = set()
 for rawresult in [rawGoogleVoice, raw9News, rawAmericasvoice, rawBestbuy, rawCBS, rawCNN, rawCWSeed, rawEspn, rawFuboTV, rawHBO, rawHuluUSA, rawStarPlus, rawSling, rawNBC, rawOreilly, rawPBS, rawPeacock, rawViki]:
-    result.extend([item.rstrip() for item in rawresult.split('\n') if not (item.startswith('#') or item.startswith('payload:'))])
+    for item in rawresult.split('\n'):
+        if item.startswith('#') or item.startswith('payload:') or item in unique_lines:
+            continue
+        result.append(item.rstrip())
+        unique_lines.add(item)
 result_text = '\n'.join(result)
 
 try:
