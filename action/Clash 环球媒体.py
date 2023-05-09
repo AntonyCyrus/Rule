@@ -103,8 +103,13 @@ except requests.exceptions.RequestException as e:
 print("Processing fetched resources and writing to file")
 
 result = ['payload:']
+unique_lines = set()
 for rawresult in [rawAmazon, rawApkpure, rawBiliBiliIntl, raw币安交易所, rawCIBN互联网电视, rawCableTV, rawCake, rawCrunchyroll, rawCloudflare, rawCryptocurrency, rawDAZN, rawDailymotion, rawDiscoveryPlus, rawDisqus, rawDubox, rawDropbox, raweBay, rawEmojipedia, rawFOXNOW, rawFOXPlus, rawFox, rawGitBook, rawGitHub, rawIMDB, rawiQIYIIntl, rawITV, rawImgur, rawLastFM, rawMEGA, rawMozilla, rawMUBI, rawNTPService, rawOvercast, rawParamountPlus, rawPikPak, rawShopee, rawShopify, rawSpeedtest, rawStarPlus, rawThomsonReuters, rawTikTok, rawTwitch, rawViuTV, rawWeTV, rawWikimedia, rawWikipedia]:
-    result.extend([item.rstrip() for item in rawresult.split('\n') if not (item.startswith('#') or item.startswith('payload:'))])
+    for item in rawresult.split('\n'):
+        if item.startswith('#') or item.startswith('payload:') or item in unique_lines:
+            continue
+        result.append(item.rstrip())
+        unique_lines.add(item)
 result_text = '\n'.join(result)
 
 try:
