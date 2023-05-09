@@ -65,8 +65,5 @@ payload:
   - IP-CIDR6,2400:dcc0::/32
   - PROCESS-NAME,com.linecorp.linetv
 
-  - DOMAIN-SUFFIX,naver.com
-  - DOMAIN-SUFFIX,smartmediarep.com
-
   - DOMAIN-SUFFIX,kmplayer.com
   - DOMAIN-SUFFIX,pandora.tv
