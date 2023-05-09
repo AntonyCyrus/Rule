@@ -19,10 +19,8 @@ payload:
   - DOMAIN,ols-ww000-cp.akamaized.net
   - DOMAIN,ols-ww100-cp.akamaized.net
   - DOMAIN,dkfhw9rzsr80z.cloudfront.net
-
   - DOMAIN-SUFFIX,fetnet.net
   - DOMAIN-SUFFIX,friday.tw
-
   - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
   - DOMAIN,bcbolthboa-a.akamaihd.net
   - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net
@@ -42,12 +40,10 @@ payload:
   - DOMAIN-SUFFIX,hbogoasia.com
   - DOMAIN-SUFFIX,hbogoasia.hk
   - DOMAIN-KEYWORD,.hbogoasia.
-
   - DOMAIN,hls-hichannel.cdn.hinet.net
   - DOMAIN-SUFFIX,hamivideo.hinet.net
   - DOMAIN-SUFFIX,ott.hinet.net
   - DOMAIN-KEYWORD,hamivideo.cdn.hinet.net
-
   - DOMAIN-SUFFIX,kfs.io
   - DOMAIN-SUFFIX,kk.stream
   - DOMAIN-SUFFIX,kkbox-prime.com
@@ -57,15 +53,10 @@ payload:
   - DOMAIN-SUFFIX,kktv.com.tw
   - DOMAIN-SUFFIX,kktv.me
   - DOMAIN-SUFFIX,theater-kktv.cdn.hinet.net
-
   - DOMAIN,kktv-theater.kk.stream
   - DOMAIN,theater-kktv.cdn.hinet.net
-  - DOMAIN-SUFFIX,kktv.com.tw
-  - DOMAIN-SUFFIX,kktv.me
-
   - DOMAIN,litvfreemobile-hichannel.cdn.hinet.net
   - DOMAIN-SUFFIX,litv.tv
-
   - DOMAIN,d17lx9ucc6k9fc.cloudfront.net
   - DOMAIN,d3pgb93pk7bvxj.cloudfront.net
   - DOMAIN,d3vm9lcxb6xcm4.cloudfront.net
@@ -75,12 +66,10 @@ payload:
   - DOMAIN-SUFFIX,line-scdn.net
   - DOMAIN-SUFFIX,linetv.tw
   - PROCESS-NAME,com.linecorp.linetv
-
   - DOMAIN-SUFFIX,momo.dm
   - DOMAIN-SUFFIX,momo5188.com
   - DOMAIN-SUFFIX,momomall.com.tw
   - DOMAIN-SUFFIX,momoshop.com.tw
-
   # > myVideo
   # USER-AGENT,myVideo*
   - PROCESS-NAME,com.taiwanmobile.myVideo
@@ -89,6 +78,5 @@ payload:
   - DOMAIN-SUFFIX,catch.net.tw
   - DOMAIN,applemediaservice.keydelivery.southeastasia.media.azure.net
   - DOMAIN,akamaiendpoint-applemediaservice-aase.streaming.media.azure.net
-
   - DOMAIN,hamifans.emome.net
   - DOMAIN-SUFFIX,skyking.com.tw
