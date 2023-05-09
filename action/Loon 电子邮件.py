@@ -23,6 +23,9 @@ tz = pytz.timezone('Asia/Shanghai')
 now = datetime.now(tz)
 time_str = now.strftime("%Y-%m-%d %H:%M:%S")
 
+# 去除重复的行
+result = list(set(result))
+
 # 拼接要写入文件的字符串
 result_text = "# Mail.list\n# Generated at " + time_str + "\n\n" + "\n".join(result) + "\n\n# This configuration file has been generated successfully."
 
