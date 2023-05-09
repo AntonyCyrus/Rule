@@ -62,6 +62,9 @@ for url in urls:
     except requests.exceptions.RequestException as e:
         print("Error getting data:", e)
 
+# 去除重复的行
+result = list(set(result))
+
 # 获取当前时间并格式化
 tz = pytz.timezone('Asia/Shanghai')
 now = datetime.now(tz)
