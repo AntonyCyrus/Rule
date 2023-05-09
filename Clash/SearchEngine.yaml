@@ -99,7 +99,6 @@ payload:
   - IP-CIDR,95.108.128.0/17
   - IP-CIDR6,2620:10f:d000::/44
   - IP-CIDR6,2a02:6b8::/29
-
   - DOMAIN-SUFFIX,aol.com
   - DOMAIN-SUFFIX,ask.com
   - DOMAIN-SUFFIX,search.brave.com
@@ -109,4 +108,3 @@ payload:
   - DOMAIN-SUFFIX,search.yahoo.com
   - DOMAIN-SUFFIX,webcrawler.com
   - DOMAIN-SUFFIX,wolframalpha.com
-  - DOMAIN-SUFFIX,search.yahoo.com
