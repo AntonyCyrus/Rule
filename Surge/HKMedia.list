@@ -1,51 +1,51 @@
 # HKMedia.list
-# Generated at 2023-05-10 05:17:40
+# Generated at 2023-05-10 05:20:09
 
-DOMAIN-SUFFIX,dfp6rglgjqszk.cloudfront.net
-404: Not Found
-DOMAIN,mytvsuperlimited.hb.omtrdc.net
+DOMAIN-SUFFIX,tvb.com
 DOMAIN-SUFFIX,joox.com
-DOMAIN-SUFFIX,hkteducation.com
-DOMAIN-SUFFIX,viu.com
-DOMAIN-SUFFIX,youboranqs01.com
-USER-AGENT,JOOX*
-DOMAIN-SUFFIX,nowe.com
-DOMAIN-SUFFIX,d1k2us671qcoau.cloudfront.net
-DOMAIN-SUFFIX,hkcsl.com
-DOMAIN-SUFFIX,pccwglobal.com
-DOMAIN-SUFFIX,moov.hk
-DOMAIN-SUFFIX,nowe.hk
+DOMAIN-SUFFIX,now.com
 DOMAIN-SUFFIX,1010.com.hk
-DOMAIN-SUFFIX,pccw.com
+DOMAIN-SUFFIX,pccwsolutions.com
+DOMAIN-KEYWORD,nowtv100
 DOMAIN-SUFFIX,theclub.com.hk
+DOMAIN,mytvsuperlimited.hb.omtrdc.net
+DOMAIN,d2anahhhmp1ffz.cloudfront.net
+DOMAIN-SUFFIX,hkt-eye.com
+DOMAIN-SUFFIX,viu.com
+DOMAIN-SUFFIX,netvigator.com
+DOMAIN-SUFFIX,hkcsl.com
+DOMAIN-SUFFIX,youboranqs01.com
+DOMAIN-SUFFIX,mytvsuper.com
+USER-AGENT,mytv*
 DOMAIN-KEYWORD,jooxweb-api
+DOMAIN-SUFFIX,dfp6rglgjqszk.cloudfront.net
+DOMAIN-KEYWORD,rthklive
+404: Not Found
+DOMAIN,mytvsuperlimited.sc.omtrdc.net
+USER-AGENT,WeMusic*
+USER-AGENT,JOOX*
+DOMAIN-SUFFIX,hktpremier.com
 DOMAIN-SUFFIX,now.com.hk
 DOMAIN,pccw-cf-video.akamaized.net
+DOMAIN-SUFFIX,d1k2us671qcoau.cloudfront.net
 DOMAIN-SUFFIX,uhub.com
-DOMAIN-SUFFIX,pccwsolutions.com
-PROCESS-NAME,com.tencent.ibg.joox
-DOMAIN-SUFFIX,hkt-enterprise.com
-DOMAIN-SUFFIX,hktshop.com
-DOMAIN-SUFFIX,hkt-eye.com
-DOMAIN,mytvsuperlimited.sc.omtrdc.net
-DOMAIN-KEYWORD,nowtv100
-USER-AGENT,mytv*
-DOMAIN-SUFFIX,nowestatic.com
-DOMAIN-SUFFIX,segment.io
-DOMAIN-SUFFIX,netvigator.com
-DOMAIN,pccw-live-cdn-01.akamaized.net
-DOMAIN-SUFFIX,now-tv.com
-DOMAIN-SUFFIX,mytvsuper.com
-DOMAIN-SUFFIX,esmarthealth.com
-DOMAIN-SUFFIX,hkt.com
-DOMAIN-SUFFIX,mtg.now.com
-DOMAIN-SUFFIX,hktpremier.com
-DOMAIN-SUFFIX,now-ashare.com
-DOMAIN-SUFFIX,tvb.com
 DOMAIN-SUFFIX,viu.tv
-USER-AGENT,WeMusic*
-DOMAIN-SUFFIX,now.com
-DOMAIN,d2anahhhmp1ffz.cloudfront.net
-DOMAIN-KEYWORD,rthklive
+DOMAIN-SUFFIX,segment.io
+DOMAIN-SUFFIX,mtg.now.com
+DOMAIN-SUFFIX,now-ashare.com
+DOMAIN-SUFFIX,moov.hk
+DOMAIN,pccw-live-cdn-01.akamaized.net
+PROCESS-NAME,com.tencent.ibg.joox
+DOMAIN-SUFFIX,nowe.com
+DOMAIN-SUFFIX,hktshop.com
+DOMAIN-SUFFIX,pccwglobal.com
+DOMAIN-SUFFIX,nowe.hk
+DOMAIN-SUFFIX,nowestatic.com
+DOMAIN-SUFFIX,hkt.com
+DOMAIN-SUFFIX,esmarthealth.com
+DOMAIN-SUFFIX,pccw.com
+DOMAIN-SUFFIX,hkteducation.com
+DOMAIN-SUFFIX,now-tv.com
+DOMAIN-SUFFIX,hkt-enterprise.com
 
 # This configuration file has been generated successfully.
