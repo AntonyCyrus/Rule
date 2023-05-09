@@ -1,51 +1,51 @@
 # HKMedia.list
-# Generated at 2023-05-10 04:57:10
+# Generated at 2023-05-10 05:00:54
 
-USER-AGENT,mytv*
-DOMAIN-SUFFIX,viu.com
-DOMAIN,mytvsuperlimited.sc.omtrdc.net
-DOMAIN-SUFFIX,youboranqs01.com
-DOMAIN-SUFFIX,hkcsl.com
-DOMAIN-SUFFIX,hktshop.com
-DOMAIN-SUFFIX,pccw.com
-DOMAIN-SUFFIX,pccwglobal.com
-PROCESS-NAME,com.tencent.ibg.joox
-DOMAIN-SUFFIX,pccwsolutions.com
-DOMAIN-SUFFIX,hkt-enterprise.com
+DOMAIN-SUFFIX,joox.com
+USER-AGENT,WeMusic*
 DOMAIN,mytvsuperlimited.hb.omtrdc.net
-404: Not Found
-DOMAIN-SUFFIX,now-ashare.com
+DOMAIN-SUFFIX,d1k2us671qcoau.cloudfront.net
+DOMAIN-SUFFIX,viu.com
 DOMAIN-SUFFIX,1010.com.hk
-DOMAIN-SUFFIX,mtg.now.com
-DOMAIN-SUFFIX,dfp6rglgjqszk.cloudfront.net
-DOMAIN-SUFFIX,hkt.com
+DOMAIN-SUFFIX,hkcsl.com
+DOMAIN-SUFFIX,now-ashare.com
 DOMAIN,pccw-live-cdn-01.akamaized.net
-DOMAIN-SUFFIX,tvb.com
-DOMAIN-SUFFIX,moov.hk
+DOMAIN-SUFFIX,mytvsuper.com
+DOMAIN-SUFFIX,theclub.com.hk
+DOMAIN,mytvsuperlimited.sc.omtrdc.net
+DOMAIN-SUFFIX,segment.io
+DOMAIN-SUFFIX,uhub.com
+DOMAIN-KEYWORD,jooxweb-api
+DOMAIN,pccw-cf-video.akamaized.net
+DOMAIN-SUFFIX,esmarthealth.com
 DOMAIN-SUFFIX,nowe.hk
+DOMAIN-SUFFIX,now-tv.com
+DOMAIN-SUFFIX,hktshop.com
+DOMAIN-SUFFIX,pccwglobal.com
+DOMAIN-SUFFIX,tvb.com
+DOMAIN-SUFFIX,hkt-eye.com
+DOMAIN-SUFFIX,viu.tv
+PROCESS-NAME,com.tencent.ibg.joox
+DOMAIN-SUFFIX,moov.hk
+DOMAIN-SUFFIX,now.com.hk
+DOMAIN-SUFFIX,now.com
+DOMAIN-SUFFIX,hkteducation.com
+DOMAIN-SUFFIX,hktpremier.com
+DOMAIN,d2anahhhmp1ffz.cloudfront.net
+DOMAIN-SUFFIX,hkt.com
+DOMAIN-SUFFIX,youboranqs01.com
+DOMAIN-SUFFIX,pccw.com
+DOMAIN-SUFFIX,hkt-enterprise.com
+DOMAIN-SUFFIX,mtg.now.com
+USER-AGENT,mytv*
+404: Not Found
+DOMAIN-SUFFIX,dfp6rglgjqszk.cloudfront.net
 USER-AGENT,JOOX*
 DOMAIN-SUFFIX,nowestatic.com
-DOMAIN-KEYWORD,jooxweb-api
-DOMAIN-SUFFIX,d1k2us671qcoau.cloudfront.net
-USER-AGENT,WeMusic*
-DOMAIN-SUFFIX,joox.com
-DOMAIN-SUFFIX,nowe.com
-DOMAIN,pccw-cf-video.akamaized.net
-DOMAIN-SUFFIX,hkt-eye.com
-DOMAIN-SUFFIX,esmarthealth.com
-DOMAIN-SUFFIX,mytvsuper.com
-DOMAIN-SUFFIX,now.com.hk
-DOMAIN-KEYWORD,nowtv100
-DOMAIN-SUFFIX,segment.io
-DOMAIN-SUFFIX,hkteducation.com
-DOMAIN-SUFFIX,now-tv.com
-DOMAIN-SUFFIX,theclub.com.hk
-DOMAIN-SUFFIX,now.com
-DOMAIN-SUFFIX,uhub.com
 DOMAIN-SUFFIX,netvigator.com
-DOMAIN,d2anahhhmp1ffz.cloudfront.net
+DOMAIN-KEYWORD,nowtv100
 DOMAIN-KEYWORD,rthklive
-DOMAIN-SUFFIX,hktpremier.com
-DOMAIN-SUFFIX,viu.tv
+DOMAIN-SUFFIX,pccwsolutions.com
+DOMAIN-SUFFIX,nowe.com
 
 # This configuration file has been generated successfully.
