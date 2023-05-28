@@ -9,3 +9,5 @@ DOMAIN-SUFFIX,ai.com
 # Add stripe.com
 DOMAIN-SUFFIX,invoice.stripe.com
 DOMAIN-SUFFIX,stripe.com
+# Add sentry.io
+DOMAIN-SUFFIX,sentry.io
