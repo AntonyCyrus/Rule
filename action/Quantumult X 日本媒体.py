@@ -11,7 +11,6 @@ urls = [
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/HuluJP/HuluJP.list",
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Niconico/Niconico.list",
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Nikkei/Nikkei.list",
-    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Nintendo/Nintendo.list",
     "https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Filter/Paravi.list",
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Pixiv/Pixiv.list",
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Pixnet/Pixnet.list",
