@@ -11,7 +11,6 @@ urls = [
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/HuluJP/HuluJP.list",
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Niconico/Niconico.list",
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Nikkei/Nikkei.list",
-    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Nintendo/Nintendo.list",
     "https://raw.githubusercontent.com/HotKids/Rules/master/Surge/RULE-SET/Paravi.list",
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Pixiv/Pixiv.list",
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Pixnet/Pixnet.list",
