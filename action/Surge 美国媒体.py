@@ -6,6 +6,7 @@ result = []
 
 # 定义需要请求的链接
 urls = [
+    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge//GoogleVoice/GoogleVoice.list",
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/9News/9News.list",
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Americasvoice/Americasvoice.list",
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Bestbuy/Bestbuy.list",
