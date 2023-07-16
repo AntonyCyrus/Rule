@@ -1261,6 +1261,8 @@ payload:
   - DOMAIN-SUFFIX,mdn.dev
   - DOMAIN-SUFFIX,mdn.mozillademos.org
   - DOMAIN-SUFFIX,mdn.mozit.cloud
+  - DOMAIN-SUFFIX,mdnplay.dev
+  - DOMAIN-SUFFIX,mdnyalp.dev
   - DOMAIN-SUFFIX,mofoprod.net
   - DOMAIN-SUFFIX,mozilla.com
   - DOMAIN-SUFFIX,mozilla.community
