@@ -39,6 +39,7 @@ payload:
   - DOMAIN-SUFFIX,amazon.com.mx
   - DOMAIN-SUFFIX,amazon.com.tr
   - DOMAIN-SUFFIX,amazon.de
+  - DOMAIN-SUFFIX,amazon.dev
   - DOMAIN-SUFFIX,amazon.es
   - DOMAIN-SUFFIX,amazon.fr
   - DOMAIN-SUFFIX,amazon.in
@@ -136,6 +137,7 @@ payload:
   - DOMAIN-SUFFIX,cloudfront-cn.net
   - DOMAIN-SUFFIX,cloudfront-test.cn
   - DOMAIN-SUFFIX,cloudfront.cn
+  - DOMAIN-SUFFIX,cloudfront.com
   - DOMAIN-SUFFIX,cloudfront.net
   - DOMAIN-SUFFIX,containersonaws.com
   - DOMAIN-SUFFIX,createspace.com
@@ -364,6 +366,7 @@ payload:
   - DOMAIN-SUFFIX,cftest8.com
   - DOMAIN-SUFFIX,cloudflare-cn.com
   - DOMAIN-SUFFIX,cloudflare-dns.com
+  - DOMAIN-SUFFIX,cloudflare-gateway.com
   - DOMAIN-SUFFIX,cloudflare-ipfs.com
   - DOMAIN-SUFFIX,cloudflare-quic.com
   - DOMAIN-SUFFIX,cloudflare.com
@@ -377,6 +380,7 @@ payload:
   - DOMAIN-SUFFIX,cloudflareinsights-cn.com
   - DOMAIN-SUFFIX,cloudflareinsights.com
   - DOMAIN-SUFFIX,cloudflareok.com
+  - DOMAIN-SUFFIX,cloudflareportal.com
   - DOMAIN-SUFFIX,cloudflarepreview.com
   - DOMAIN-SUFFIX,cloudflareprod.com
   - DOMAIN-SUFFIX,cloudflareresolve.com
@@ -1203,6 +1207,7 @@ payload:
   - DOMAIN-SUFFIX,itv.com
   - DOMAIN-SUFFIX,itvstatic.com
   - DOMAIN-SUFFIX,imgur.com
+  - DOMAIN-SUFFIX,imgur.io
   - DOMAIN-SUFFIX,imgurinc.com
   - DOMAIN,last.us11.list-manage.com
   - DOMAIN,lastfm-img2.akamaized.net
