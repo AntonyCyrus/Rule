@@ -46,7 +46,6 @@ urls = [
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Speedtest/Speedtest.list",
     "https://raw.githubusercontent.com/HotKids/Rules/master/Surge/RULE-SET/Star%2B.list",
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ThomsonReuters/ThomsonReuters.list",
-    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/TikTok/TikTok.list",
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Twitch/Twitch.list",
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ViuTV/ViuTV.list",
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/WeTV/WeTV.list",
