@@ -1,0 +1,12 @@
+DOMAIN-SUFFIX,comments.app // @CommentsBot
+DOMAIN-SUFFIX,graph.org
+DOMAIN-SUFFIX,legra.ph
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,tdesktop.com
+DOMAIN-SUFFIX,telegra.ph // Telegraph
+DOMAIN-SUFFIX,telegram-cdn.org
+DOMAIN-SUFFIX,telegram.me
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,telesco.pe // Telescope
+DOMAIN-SUFFIX,tx.me
+PROCESS-NAME,org.telegram.messenger
