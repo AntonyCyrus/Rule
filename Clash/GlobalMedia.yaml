@@ -1184,7 +1184,6 @@ payload:
   - DOMAIN-SUFFIX,repo.new
   - DOMAIN-SUFFIX,thegithubshop.com
   - DOMAIN-KEYWORD,github
-  - DOMAIN,api.theinitium.com
   - DOMAIN,cache.video.iqiyi.com
   - DOMAIN-SUFFIX,inter.iqiyi.com
   - DOMAIN-SUFFIX,intl-rcd.iqiyi.com
