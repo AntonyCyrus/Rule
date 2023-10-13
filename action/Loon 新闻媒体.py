@@ -10,6 +10,7 @@ urls = [
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Bloomberg/Bloomberg.list",
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/FlipBoard/FlipBoard.list",
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Huffpost/Huffpost.list",
+    "https://raw.githubusercontent.com/AntonyCyrus/Rule/main/Surge/Initium_Media.list",
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/NYPost/NYPost.list",
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/NYTimes/NYTimes.list",
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/VOA/VOA.list"
