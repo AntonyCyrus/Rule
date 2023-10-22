@@ -1,14 +1,14 @@
 # INMedia.list
-# Generated at 2023-10-22 04:08:31
+# Generated at 2023-10-23 04:08:24
 
-HOST-SUFFIX,zeetv.co.uk,ZeeTV
-HOST-SUFFIX,z5.com,ZeeTV
 HOST-SUFFIX,zee5.in,ZeeTV
-HOST-SUFFIX,z5.app,ZeeTV
-HOST-SUFFIX,zeetv.com,ZeeTV
 HOST-SUFFIX,zee5.com,ZeeTV
-HOST-SUFFIX,zee5.tv,ZeeTV
 HOST-SUFFIX,zeebioskop.com,ZeeTV
+HOST-SUFFIX,z5.app,ZeeTV
+HOST-SUFFIX,zee5.tv,ZeeTV
+HOST-SUFFIX,z5.com,ZeeTV
+HOST-SUFFIX,zeetv.co.uk,ZeeTV
 HOST-SUFFIX,zeeuk.com,ZeeTV
+HOST-SUFFIX,zeetv.com,ZeeTV
 
 # This configuration file has been generated successfully.
