@@ -83,6 +83,7 @@ payload:
   - DOMAIN-SUFFIX,huffpostbrasil.com
   - DOMAIN-SUFFIX,huffpostmaghreb.com
   - DOMAIN,api.theinitium.com
+  - DOMAIN-SUFFIX,cloudfront.net
   - DOMAIN-SUFFIX,nypost.com
   - DOMAIN-SUFFIX,nypost.help
   - DOMAIN-SUFFIX,nypostreprints.com
