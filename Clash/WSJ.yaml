@@ -3,6 +3,8 @@ payload:
   - DOMAIN-SUFFIX,amazon-adsystem.com
   - DOMAIN-SUFFIX,appsflyer.com
   - DOMAIN-SUFFIX,branch.io
+  - DOMAIN-SUFFIX,branch.io
+  - DOMAIN-SUFFIX,dowjones.com
   - DOMAIN-SUFFIX,dowjones.io
   - DOMAIN-SUFFIX,permutive.app
   - DOMAIN-SUFFIX,urbanairship.com
