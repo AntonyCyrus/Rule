@@ -1,2 +1,3 @@
 payload:
   - DOMAIN,api.theinitium.com
+  - DOMAIN-SUFFIX,cloudfront.net
