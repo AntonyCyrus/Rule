@@ -13,6 +13,7 @@ urls = [
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/NYPost/NYPost.list",
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/NYTimes/NYTimes.list",
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/VOA/VOA.list"
+    "https://raw.githubusercontent.com/AntonyCyrus/Rule/main/Clash/WSJ.list"
 ]
 
 # 遍历链接列表，依次请求链接内容并将结果保存到 result 列表中
