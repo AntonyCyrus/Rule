@@ -163,3 +163,4 @@ payload:
   - DOMAIN-SUFFIX,urbanairship.com
   - DOMAIN-SUFFIX,wsj.net
   - DOMAIN-SUFFIX,zqtk.net
+  - DOMAIN,cdn.privacy-mgmt.com
