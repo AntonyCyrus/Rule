@@ -29,6 +29,7 @@ urls = [
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Fox/Fox.list",
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitBook/GitBook.list",
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitHub/GitHub.list",
+    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitLab/GitLab.list",
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/IMDB/IMDB.list",
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/iQIYIIntl/iQIYIIntl.list",
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ITV/ITV.list",
