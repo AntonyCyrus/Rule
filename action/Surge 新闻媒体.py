@@ -14,6 +14,7 @@ urls = [
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/NYPost/NYPost.list",
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/NYTimes/NYTimes.list",
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/VOA/VOA.list"
+    "https://raw.githubusercontent.com/AntonyCyrus/Rule/main/Surge/WSJ.list"
 ]
 
 # 遍历链接列表，依次请求链接内容并将结果保存到 result 列表中
