@@ -4,3 +4,4 @@ payload:
   - DOMAIN,firebase-settings.crashlytics.com
   - DOMAIN,o513512.ingest.sentry.io
   - DOMAIN,op-prod-tr.ozan.com
+  - PROCESS-NAME,com.ozan.android
