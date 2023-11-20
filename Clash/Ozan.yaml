@@ -3,5 +3,5 @@ payload:
   - DOMAIN,firebaselogging-pa.googleapis.com
   - DOMAIN,firebase-settings.crashlytics.com
   - DOMAIN,o513512.ingest.sentry.io
-  - DOMAIN,op-prod-tr.ozan.com
+  - DOMAIN-SUFFIX,ozan.com
   - PROCESS-NAME,com.ozan.android
