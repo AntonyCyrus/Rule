@@ -482,6 +482,7 @@ payload:
   - DOMAIN-SUFFIX,dmcdn.net
   - DOMAIN-SUFFIX,dmxleo.com
   - DOMAIN,discovery-us.conax.cloud
+  - DOMAIN,dplus-northamerica-cloudfront-gcs.prod-vod.h264.io
   - DOMAIN,dplus-northamerica.media-edge.prod-vod.h264.io
   - DOMAIN-SUFFIX,disco-api.com
   - DOMAIN-SUFFIX,discovery.com
