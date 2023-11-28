@@ -252,6 +252,8 @@ payload:
   - DOMAIN-SUFFIX,binance.us
   - DOMAIN-SUFFIX,binance.vision
   - DOMAIN-SUFFIX,binanceapi.com
+  - DOMAIN-SUFFIX,binancecnt.com
+  - DOMAIN-SUFFIX,binancefuture.com
   - DOMAIN-SUFFIX,binancezh.be
   - DOMAIN-SUFFIX,binancezh.biz
   - DOMAIN-SUFFIX,binancezh.cc
@@ -271,6 +273,7 @@ payload:
   - DOMAIN-SUFFIX,bnbstatic.com
   - DOMAIN-SUFFIX,bnbzh.ac
   - DOMAIN-SUFFIX,bntrace.com
+  - DOMAIN-SUFFIX,saasexch.cc
   - DOMAIN-SUFFIX,saasexch.com
   - DOMAIN-SUFFIX,apecn.com
   - DOMAIN-SUFFIX,china-ceec-cooperation.com

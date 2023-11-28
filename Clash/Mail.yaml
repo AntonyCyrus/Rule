@@ -8,7 +8,9 @@ payload:
   - DOMAIN,smtp-mail.outlook.com
   - DOMAIN,smtp.gmail.com
   - DOMAIN,smtp.office365.com
+  - DOMAIN-SUFFIX,imap.yandex.com
   - DOMAIN-SUFFIX,m.hotmail.com
+  - DOMAIN-SUFFIX,smtp.yandex.com
 
   - DOMAIN-SUFFIX,pm.me
   - DOMAIN-SUFFIX,proton.me
