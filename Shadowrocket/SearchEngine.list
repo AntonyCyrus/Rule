@@ -1,49 +1,49 @@
 # SearchEngine.list
-# Generated at 2023-11-30 04:09:17
+# Generated at 2023-12-01 04:09:02
 
-DOMAIN-SUFFIX,cispaletter.com
-DOMAIN-SUFFIX,duck.com
-DOMAIN-SUFFIX,privatebrowsingmyths.com
-DOMAIN-SUFFIX,duckduckgo.com.mx
-DOMAIN-SUFFIX,duckduckgo.pl
-DOMAIN-SUFFIX,duckduckco.com
-DOMAIN-SUFFIX,duckduckhack.com
-DOMAIN-SUFFIX,justduckit.com
-DOMAIN-SUFFIX,duck.co
-DOMAIN-SUFFIX,duckduckgo.de
-DOMAIN-SUFFIX,duckduckgo.in
-DOMAIN-SUFFIX,duckduckgo.com.tw
-DOMAIN-SUFFIX,cometotheduckside.com
-DOMAIN-SUFFIX,duckduckgo.uk
-DOMAIN-SUFFIX,dontbubble.us
-DOMAIN-SUFFIX,duckgo.com
-DOMAIN-SUFFIX,cispaletter.org
 DOMAIN-SUFFIX,duckduckgo.co
-DOMAIN-SUFFIX,duckduckgo.nl
-DOMAIN-SUFFIX,hacksear.ch
 DOMAIN-SUFFIX,duckside.com
-DOMAIN-SUFFIX,dgg.gg
-DOMAIN-SUFFIX,ddh.gg
-DOMAIN-SUFFIX,duckduckgo.ca
-DOMAIN-SUFFIX,duckduckgo.co.uk
-DOMAIN-SUFFIX,duckduckgo.mx
-DOMAIN-SUFFIX,ddg.gg
-DOMAIN-SUFFIX,donttrack.us
-DOMAIN-SUFFIX,privacysimplified.com
-DOMAIN-SUFFIX,duckduckgo.ke
-DOMAIN-SUFFIX,duckduckgo.org
-DOMAIN-SUFFIX,duckduckco.de
-DOMAIN-SUFFIX,fixtracking.com
+DOMAIN-SUFFIX,duckduckgo.pl
+DOMAIN-SUFFIX,cispaletter.org
 DOMAIN-SUFFIX,ddg.co
-DOMAIN-SUFFIX,dukgo.com
+DOMAIN-SUFFIX,duckduckgo.de
+DOMAIN-SUFFIX,duckduckgo.com.tw
+DOMAIN-SUFFIX,dgg.gg
+DOMAIN-SUFFIX,duckduckgo.ke
 DOMAIN-SUFFIX,duckduckgo.com
-DOMAIN-SUFFIX,duckduckgo.sg
+DOMAIN-SUFFIX,fixtracking.com
 DOMAIN-SUFFIX,enteentegeh.de
-404: Not Found
+DOMAIN-SUFFIX,duckduckgo.nl
 DOMAIN-SUFFIX,goduckgo.com
-DOMAIN-SUFFIX,duckduckgo.dk
-DOMAIN-SUFFIX,spreadprivacy.com
-DOMAIN-SUFFIX,duckduckgo.jp
+DOMAIN-SUFFIX,duckduckgo.mx
+DOMAIN-SUFFIX,dontbubble.us
+DOMAIN-SUFFIX,duckduckhack.com
+DOMAIN-SUFFIX,duckduckgo.com.mx
+DOMAIN-SUFFIX,ddg.gg
+DOMAIN-SUFFIX,duckgo.com
+DOMAIN-SUFFIX,duck.com
+DOMAIN-SUFFIX,privacysimplified.com
+DOMAIN-SUFFIX,duckduckco.com
+DOMAIN-SUFFIX,privatebrowsingmyths.com
+DOMAIN-SUFFIX,dukgo.com
+DOMAIN-SUFFIX,cometotheduckside.com
 DOMAIN-SUFFIX,ducksear.ch
+DOMAIN-SUFFIX,duckduckgo.ca
+DOMAIN-SUFFIX,hacksear.ch
+DOMAIN-SUFFIX,justduckit.com
+404: Not Found
+DOMAIN-SUFFIX,cispaletter.com
+DOMAIN-SUFFIX,donttrack.us
+DOMAIN-SUFFIX,duckduckco.de
+DOMAIN-SUFFIX,duckduckgo.dk
+DOMAIN-SUFFIX,duckduckgo.co.uk
+DOMAIN-SUFFIX,duckduckgo.in
+DOMAIN-SUFFIX,duckduckgo.sg
+DOMAIN-SUFFIX,duckduckgo.uk
+DOMAIN-SUFFIX,duck.co
+DOMAIN-SUFFIX,duckduckgo.jp
+DOMAIN-SUFFIX,duckduckgo.org
+DOMAIN-SUFFIX,ddh.gg
+DOMAIN-SUFFIX,spreadprivacy.com
 
 # This configuration file has been generated successfully.
