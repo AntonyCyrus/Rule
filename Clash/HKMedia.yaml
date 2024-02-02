@@ -26,7 +26,6 @@ payload:
   - DOMAIN-SUFFIX,nowestatic.com
   - DOMAIN-SUFFIX,segment.io
   - DOMAIN-SUFFIX,youboranqs01.com
-  - DOMAIN,d2anahhhmp1ffz.cloudfront.net
   - DOMAIN-SUFFIX,1010.com.hk
   - DOMAIN-SUFFIX,d1k2us671qcoau.cloudfront.net
   - DOMAIN-SUFFIX,dfp6rglgjqszk.cloudfront.net
@@ -45,7 +44,6 @@ payload:
   - DOMAIN-SUFFIX,theclub.com.hk
   - DOMAIN-SUFFIX,uhub.com
   - DOMAIN-SUFFIX,viu.com
-  - DOMAIN-SUFFIX,viu.tv
   - DOMAIN,bcbolt446c5271-a.akamaihd.net
   - DOMAIN,edge.api.brightcove.com
   - DOMAIN,tvbtracking.azurewebsites.net
@@ -68,6 +66,7 @@ payload:
   - DOMAIN-SUFFIX,d2anahhhmp1ffz.cloudfront.net
   - DOMAIN-SUFFIX,mobileanalytics.us-east-1.amazonaws.com
   - DOMAIN-SUFFIX,viu.now.com
+  - DOMAIN-SUFFIX,viu.tv
   - PROCESS-NAME,com.viu.pad
   - PROCESS-NAME,com.viu.phone
   - PROCESS-NAME,com.vuclip.viu
