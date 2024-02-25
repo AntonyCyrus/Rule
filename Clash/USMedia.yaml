@@ -99,7 +99,6 @@ payload:
   - DOMAIN-SUFFIX,wolfatbestbuy.net
   - DOMAIN-SUFFIX,www-bestbuystores.com
   - DOMAIN-SUFFIX,amlg.io
-  - DOMAIN-SUFFIX,cbs
   - DOMAIN-SUFFIX,cbs.com
   - DOMAIN-SUFFIX,cbsaavideo.com
   - DOMAIN-SUFFIX,cbscorporation.com
@@ -160,7 +159,10 @@ payload:
   - DOMAIN-SUFFIX,watchespn.com
   - DOMAIN-SUFFIX,fubo.tv
   - DOMAIN-SUFFIX,fubotv.com
+  - DOMAIN,wmff.warnermediacdn.com
   - DOMAIN-SUFFIX,cinemax.com
+  - DOMAIN-SUFFIX,discomax.com
+  - DOMAIN-SUFFIX,h264.io
   - DOMAIN-SUFFIX,hbomax.com
   - DOMAIN-SUFFIX,hbomaxcdn.com
   - DOMAIN-SUFFIX,hbomaxdash.s.llnwi.net
