@@ -1,49 +1,49 @@
 # SearchEngine.list
-# Generated at 2024-06-09 04:08:38
+# Generated at 2024-06-10 04:09:32
 
-DOMAIN-SUFFIX,privatebrowsingmyths.com
-DOMAIN-SUFFIX,duckduckgo.nl
-DOMAIN-SUFFIX,duckgo.com
-DOMAIN-SUFFIX,duckduckgo.co.uk
-DOMAIN-SUFFIX,dontbubble.us
-DOMAIN-SUFFIX,spreadprivacy.com
-DOMAIN-SUFFIX,duckduckgo.ca
-DOMAIN-SUFFIX,cometotheduckside.com
+DOMAIN-SUFFIX,duck.com
+DOMAIN-SUFFIX,duckduckgo.com
+DOMAIN-SUFFIX,duckduckgo.uk
+DOMAIN-SUFFIX,dukgo.com
+DOMAIN-SUFFIX,goduckgo.com
+DOMAIN-SUFFIX,duckduckgo.org
+404: Not Found
+DOMAIN-SUFFIX,duckduckgo.sg
 DOMAIN-SUFFIX,duckduckhack.com
+DOMAIN-SUFFIX,enteentegeh.de
+DOMAIN-SUFFIX,duckduckgo.de
+DOMAIN-SUFFIX,duckgo.com
 DOMAIN-SUFFIX,cispaletter.org
 DOMAIN-SUFFIX,duckside.com
-DOMAIN-SUFFIX,duck.com
-DOMAIN-SUFFIX,cispaletter.com
-DOMAIN-SUFFIX,duckduckgo.co
-DOMAIN-SUFFIX,duckduckgo.ke
-DOMAIN-SUFFIX,duckduckgo.sg
-DOMAIN-SUFFIX,goduckgo.com
-DOMAIN-SUFFIX,fixtracking.com
-DOMAIN-SUFFIX,duckduckgo.mx
-DOMAIN-SUFFIX,dukgo.com
-DOMAIN-SUFFIX,duckduckgo.de
-DOMAIN-SUFFIX,duckduckgo.org
-DOMAIN-SUFFIX,dgg.gg
-DOMAIN-SUFFIX,duckduckgo.jp
-DOMAIN-SUFFIX,justduckit.com
-DOMAIN-SUFFIX,ducksear.ch
-DOMAIN-SUFFIX,duckduckgo.uk
-DOMAIN-SUFFIX,ddh.gg
-404: Not Found
-DOMAIN-SUFFIX,duckduckco.com
-DOMAIN-SUFFIX,duckduckgo.com.mx
+DOMAIN-SUFFIX,duckduckgo.co.uk
 DOMAIN-SUFFIX,duckduckgo.com.tw
-DOMAIN-SUFFIX,duckduckgo.pl
-DOMAIN-SUFFIX,ddg.co
-DOMAIN-SUFFIX,enteentegeh.de
-DOMAIN-SUFFIX,hacksear.ch
-DOMAIN-SUFFIX,duckduckgo.com
-DOMAIN-SUFFIX,duckduckgo.in
-DOMAIN-SUFFIX,ddg.gg
-DOMAIN-SUFFIX,duck.co
-DOMAIN-SUFFIX,privacysimplified.com
 DOMAIN-SUFFIX,duckduckgo.dk
 DOMAIN-SUFFIX,duckduckco.de
+DOMAIN-SUFFIX,fixtracking.com
+DOMAIN-SUFFIX,hacksear.ch
+DOMAIN-SUFFIX,dontbubble.us
+DOMAIN-SUFFIX,duckduckgo.mx
+DOMAIN-SUFFIX,justduckit.com
 DOMAIN-SUFFIX,donttrack.us
+DOMAIN-SUFFIX,privatebrowsingmyths.com
+DOMAIN-SUFFIX,cispaletter.com
+DOMAIN-SUFFIX,spreadprivacy.com
+DOMAIN-SUFFIX,ddg.gg
+DOMAIN-SUFFIX,duck.co
+DOMAIN-SUFFIX,duckduckgo.co
+DOMAIN-SUFFIX,privacysimplified.com
+DOMAIN-SUFFIX,duckduckgo.com.mx
+DOMAIN-SUFFIX,duckduckgo.in
+DOMAIN-SUFFIX,duckduckgo.jp
+DOMAIN-SUFFIX,duckduckgo.ke
+DOMAIN-SUFFIX,duckduckgo.nl
+DOMAIN-SUFFIX,dgg.gg
+DOMAIN-SUFFIX,ducksear.ch
+DOMAIN-SUFFIX,ddg.co
+DOMAIN-SUFFIX,duckduckgo.pl
+DOMAIN-SUFFIX,duckduckco.com
+DOMAIN-SUFFIX,cometotheduckside.com
+DOMAIN-SUFFIX,duckduckgo.ca
+DOMAIN-SUFFIX,ddh.gg
 
 # This configuration file has been generated successfully.
