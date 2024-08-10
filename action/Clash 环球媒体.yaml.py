@@ -8,7 +8,6 @@ rawCIBN互联网电视 = ""
 rawCableTV = ""
 rawCake = ""
 rawCrunchyroll = ""
-rawCloudflare = ""
 rawCryptocurrency = ""
 rawDAZN = ""
 rawDailymotion = ""
@@ -59,7 +58,6 @@ try:
     rawCableTV = requests.get("https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/CableTV/CableTV.yaml").text
     rawCake = requests.get("https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Cake/Cake.yaml").text
     rawCrunchyroll = requests.get("https://raw.githubusercontent.com/HotKids/Rules/master/Clash/RuleSet/Crunchyroll.yaml").text
-    rawCloudflare = requests.get("https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Cloudflare/Cloudflare.yaml").text
     rawCryptocurrency = requests.get("https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Cryptocurrency/Cryptocurrency.yaml").text
     rawDAZN = requests.get("https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DAZN/DAZN.yaml").text
     rawDailymotion = requests.get("https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Dailymotion/Dailymotion.yaml").text
@@ -105,7 +103,7 @@ print("Processing fetched resources and writing to file")
 
 result = ['payload:']
 unique_lines = set()
-for rawresult in [rawAmazon, rawApkpure, rawBiliBiliIntl, raw币安交易所, rawCIBN互联网电视, rawCableTV, rawCake, rawCrunchyroll, rawCloudflare, rawCryptocurrency, rawDAZN, rawDailymotion, rawDiscoveryPlus, rawDisqus, rawDubox, rawDropbox, raweBay, rawEmojipedia, rawFOXNOW, rawFOXPlus, rawFox, rawGitBook, rawGitHub, rawGitLab, rawIMDB, rawiQIYIIntl, rawITV, rawImgur, rawLastFM, rawMEGA, rawMozilla, rawMUBI, rawNTPService, rawOvercast, rawParamountPlus, rawPikPak, rawShopee, rawShopify, rawSpeedtest, rawStarPlus, rawThomsonReuters, rawTikTok, rawTwitch,rawViuTV, rawWeTV, rawWikimedia, rawWikipedia]:
+for rawresult in [rawAmazon, rawApkpure, rawBiliBiliIntl, raw币安交易所, rawCIBN互联网电视, rawCableTV, rawCake, rawCrunchyroll, rawCryptocurrency, rawDAZN, rawDailymotion, rawDiscoveryPlus, rawDisqus, rawDubox, rawDropbox, raweBay, rawEmojipedia, rawFOXNOW, rawFOXPlus, rawFox, rawGitBook, rawGitHub, rawGitLab, rawIMDB, rawiQIYIIntl, rawITV, rawImgur, rawLastFM, rawMEGA, rawMozilla, rawMUBI, rawNTPService, rawOvercast, rawParamountPlus, rawPikPak, rawShopee, rawShopify, rawSpeedtest, rawStarPlus, rawThomsonReuters, rawTikTok, rawTwitch,rawViuTV, rawWeTV, rawWikimedia, rawWikipedia]:
     for item in rawresult.split('\n'):
         if item.startswith('#') or item.startswith('payload:') or item in unique_lines:
             continue
