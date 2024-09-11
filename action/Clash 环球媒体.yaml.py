@@ -3,7 +3,6 @@ import requests
 rawAmazon = ""
 rawApkpure = ""
 rawBiliBiliIntl = ""
-raw币安交易所 = ""
 rawCIBN互联网电视 = ""
 rawCableTV = ""
 rawCake = ""
@@ -36,7 +35,6 @@ rawParamountPlus = ""
 rawPikPak = ""
 rawShopee = ""
 rawShopify = ""
-rawSpeedtest = ""
 rawStarPlus = ""
 rawThomsonReuters = ""
 rawTikTok = ""
@@ -53,7 +51,6 @@ try:
     rawAmazon = requests.get("https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Amazon/Amazon.yaml").text
     rawApkpure = requests.get("https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apkpure/Apkpure.yaml").text
     rawBiliBiliIntl = requests.get("https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BiliBiliIntl/BiliBiliIntl.yaml").text
-    raw币安交易所 = requests.get("https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Binance/Binance.yaml").text
     rawCIBN互联网电视 = requests.get("https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/CIBN/CIBN.yaml").text
     rawCableTV = requests.get("https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/CableTV/CableTV.yaml").text
     rawCake = requests.get("https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Cake/Cake.yaml").text
@@ -87,7 +84,6 @@ try:
     rawPikPak = requests.get("https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PikPak/PikPak.yaml").text
     rawShopee = requests.get("https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Shopee/Shopee.yaml").text
     rawShopify = requests.get("https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Shopify/Shopify.yaml").text
-    rawSpeedtest = requests.get("https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Speedtest/Speedtest.yaml").text
     rawStarPlus = requests.get("https://raw.githubusercontent.com/HotKids/Rules/master/Clash/RuleSet/Star%2B.yaml").text
     rawThomsonReuters = requests.get("https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ThomsonReuters/ThomsonReuters.yaml").text
     rawTikTok = requests.get("https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.yaml").text
@@ -103,7 +99,7 @@ print("Processing fetched resources and writing to file")
 
 result = ['payload:']
 unique_lines = set()
-for rawresult in [rawAmazon, rawApkpure, rawBiliBiliIntl, raw币安交易所, rawCIBN互联网电视, rawCableTV, rawCake, rawCrunchyroll, rawCryptocurrency, rawDAZN, rawDailymotion, rawDiscoveryPlus, rawDisqus, rawDubox, rawDropbox, raweBay, rawEmojipedia, rawFOXNOW, rawFOXPlus, rawFox, rawGitBook, rawGitHub, rawGitLab, rawIMDB, rawiQIYIIntl, rawITV, rawImgur, rawLastFM, rawMEGA, rawMozilla, rawMUBI, rawNTPService, rawOvercast, rawParamountPlus, rawPikPak, rawShopee, rawShopify, rawSpeedtest, rawStarPlus, rawThomsonReuters, rawTikTok, rawTwitch,rawViuTV, rawWeTV, rawWikimedia, rawWikipedia]:
+for rawresult in [rawAmazon, rawApkpure, rawBiliBiliIntl, rawCIBN互联网电视, rawCableTV, rawCake, rawCrunchyroll, rawCryptocurrency, rawDAZN, rawDailymotion, rawDiscoveryPlus, rawDisqus, rawDubox, rawDropbox, raweBay, rawEmojipedia, rawFOXNOW, rawFOXPlus, rawFox, rawGitBook, rawGitHub, rawGitLab, rawIMDB, rawiQIYIIntl, rawITV, rawImgur, rawLastFM, rawMEGA, rawMozilla, rawMUBI, rawNTPService, rawOvercast, rawParamountPlus, rawPikPak, rawShopee, rawShopify, rawStarPlus, rawThomsonReuters, rawTikTok, rawTwitch,rawViuTV, rawWeTV, rawWikimedia, rawWikipedia]:
     for item in rawresult.split('\n'):
         if item.startswith('#') or item.startswith('payload:') or item in unique_lines:
             continue
