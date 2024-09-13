@@ -35,7 +35,7 @@ for item in rawTelegramGlobal.split('\n'):
 
 # 将处理后的内容写入到 TelegramGlobal.yaml
 try:
-    with open("./Clash/TelegramGlobal.yaml", "w") as f:
+    with open("./Clash/Telegram_Global.yaml", "w") as f:
         f.write("\n".join(result))
 except IOError as e:
     print("Error occurred when writing to file:", e)
