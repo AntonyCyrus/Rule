@@ -45,7 +45,7 @@ result_text = "# Telegram_Global.list\n# Generated at " + time_str + "\n\n" + "\
 
 # 将字符串写入文件
 try:
-    with open("./QuantumultX/Telegram_Global.list", "w", encoding="utf-8") as f:
+    with open("./Quantumult X/Telegram_Global.list", "w", encoding="utf-8") as f:
         f.write(result_text)
 except IOError as e:
     print("Error occurred when writing to file:", e)
