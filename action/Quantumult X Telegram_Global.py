@@ -5,7 +5,7 @@ from datetime import datetime
 result = []
 
 # 定义需要请求的链接
-telegram_url = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Quantumult X/Telegram/Telegram.list"
+telegram_url = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Telegram/Telegram.list"
 region_urls = [
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Quantumult X/TelegramUS/TelegramUS.list",
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Quantumult X/TelegramSG/TelegramSG.list",
