@@ -1,49 +1,49 @@
 # SearchEngine.list
-# Generated at 2024-09-27 04:12:44
+# Generated at 2024-09-28 04:12:56
 
-DOMAIN-SUFFIX,duckduckco.de
-DOMAIN-SUFFIX,duckduckgo.com.mx
-DOMAIN-SUFFIX,duckduckco.com
-DOMAIN-SUFFIX,privatebrowsingmyths.com
-DOMAIN-SUFFIX,cispaletter.org
-DOMAIN-SUFFIX,duck.co
-DOMAIN-SUFFIX,duckduckgo.mx
-DOMAIN-SUFFIX,goduckgo.com
-DOMAIN-SUFFIX,cispaletter.com
-DOMAIN-SUFFIX,duckside.com
-DOMAIN-SUFFIX,dgg.gg
-DOMAIN-SUFFIX,hacksear.ch
-DOMAIN-SUFFIX,duckduckgo.ca
-DOMAIN-SUFFIX,duckduckgo.ke
-DOMAIN-SUFFIX,duckduckgo.sg
-DOMAIN-SUFFIX,duckgo.com
-DOMAIN-SUFFIX,duckduckgo.in
 DOMAIN-SUFFIX,enteentegeh.de
-DOMAIN-SUFFIX,donttrack.us
-DOMAIN-SUFFIX,ducksear.ch
-DOMAIN-SUFFIX,duckduckgo.pl
-DOMAIN-SUFFIX,privacysimplified.com
+DOMAIN-SUFFIX,hacksear.ch
+DOMAIN-SUFFIX,dgg.gg
 DOMAIN-SUFFIX,ddg.gg
-DOMAIN-SUFFIX,cometotheduckside.com
-DOMAIN-SUFFIX,duckduckgo.com.tw
-DOMAIN-SUFFIX,dukgo.com
-DOMAIN-SUFFIX,duck.com
-404: Not Found
-DOMAIN-SUFFIX,duckduckgo.co.uk
-DOMAIN-SUFFIX,spreadprivacy.com
-DOMAIN-SUFFIX,duckduckgo.nl
-DOMAIN-SUFFIX,duckduckgo.jp
-DOMAIN-SUFFIX,duckduckhack.com
-DOMAIN-SUFFIX,ddh.gg
-DOMAIN-SUFFIX,fixtracking.com
-DOMAIN-SUFFIX,ddg.co
-DOMAIN-SUFFIX,duckduckgo.de
-DOMAIN-SUFFIX,duckduckgo.org
-DOMAIN-SUFFIX,justduckit.com
-DOMAIN-SUFFIX,duckduckgo.uk
 DOMAIN-SUFFIX,dontbubble.us
-DOMAIN-SUFFIX,duckduckgo.dk
-DOMAIN-SUFFIX,duckduckgo.com
+DOMAIN-SUFFIX,duckduckgo.nl
+DOMAIN-SUFFIX,duckduckgo.in
+DOMAIN-SUFFIX,justduckit.com
+DOMAIN-SUFFIX,duckduckgo.pl
+DOMAIN-SUFFIX,ddh.gg
+DOMAIN-SUFFIX,donttrack.us
+DOMAIN-SUFFIX,duckduckgo.org
+DOMAIN-SUFFIX,duckduckgo.ca
 DOMAIN-SUFFIX,duckduckgo.co
+DOMAIN-SUFFIX,privacysimplified.com
+DOMAIN-SUFFIX,spreadprivacy.com
+DOMAIN-SUFFIX,ducksear.ch
+DOMAIN-SUFFIX,duckduckgo.com.tw
+DOMAIN-SUFFIX,duckduckgo.jp
+DOMAIN-SUFFIX,goduckgo.com
+DOMAIN-SUFFIX,duckduckgo.de
+DOMAIN-SUFFIX,duckduckgo.sg
+404: Not Found
+DOMAIN-SUFFIX,privatebrowsingmyths.com
+DOMAIN-SUFFIX,dukgo.com
+DOMAIN-SUFFIX,duckduckgo.ke
+DOMAIN-SUFFIX,cispaletter.com
+DOMAIN-SUFFIX,duckduckhack.com
+DOMAIN-SUFFIX,duckduckco.de
+DOMAIN-SUFFIX,duckduckgo.com
+DOMAIN-SUFFIX,ddg.co
+DOMAIN-SUFFIX,duck.com
+DOMAIN-SUFFIX,duckduckco.com
+DOMAIN-SUFFIX,duckduckgo.mx
+DOMAIN-SUFFIX,cispaletter.org
+DOMAIN-SUFFIX,duckgo.com
+DOMAIN-SUFFIX,duckduckgo.co.uk
+DOMAIN-SUFFIX,duckside.com
+DOMAIN-SUFFIX,duckduckgo.uk
+DOMAIN-SUFFIX,fixtracking.com
+DOMAIN-SUFFIX,duck.co
+DOMAIN-SUFFIX,cometotheduckside.com
+DOMAIN-SUFFIX,duckduckgo.dk
+DOMAIN-SUFFIX,duckduckgo.com.mx
 
 # This configuration file has been generated successfully.
