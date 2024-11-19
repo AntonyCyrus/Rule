@@ -15,7 +15,6 @@ urls = [
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/CWSeed/CWSeed.list",
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Espn/Espn.list",
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/FuboTV/FuboTV.list",
-    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/HBOUSA/HBOUSA.list",
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/HuluUSA/HuluUSA.list",
     "https://raw.githubusercontent.com/HotKids/Rules/master/Shadowrocket/RULE-SET/Star%2B%2B.list",
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Sling/Sling.list",
