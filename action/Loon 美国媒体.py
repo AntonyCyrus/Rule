@@ -15,7 +15,6 @@ urls = [
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/CWSeed/CWSeed.list",
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Espn/Espn.list",
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/FuboTV/FuboTV.list",
-    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/HBOUSA/HBOUSA.list",
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/HuluUSA/HuluUSA.list",
     "https://raw.githubusercontent.com/HotKids/Rules/master/Surge/RULE-SET/Star%2B%2B.list",
     "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Sling/Sling.list",
