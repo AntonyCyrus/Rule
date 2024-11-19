@@ -9,7 +9,6 @@ rawCNN = ""
 rawCWSeed = ""
 rawEspn = ""
 rawFuboTV = ""
-rawHBO = ""
 rawHuluUSA = ""
 rawStarPlus = ""
 rawSling = ""
@@ -29,7 +28,6 @@ try:
   rawCWSeed= requests.get("https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/CWSeed/CWSeed.yaml").text
   rawEspn= requests.get("https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Espn/Espn.yaml").text
   rawFuboTV= requests.get("https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/FuboTV/FuboTV.yaml").text
-  rawHBO= requests.get("https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HBOUSA/HBOUSA.yaml").text
   rawHuluUSA= requests.get("https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HuluUSA/HuluUSA.yaml").text
   rawStarPlus= requests.get("https://raw.githubusercontent.com/HotKids/Rules/master/Clash/RuleSet/Star%2B%2B.yaml").text
   rawSling= requests.get("https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Sling/Sling.yaml").text
@@ -44,7 +42,7 @@ except requests.exceptions.RequestException as e:
 
 result = ['payload:']
 unique_lines = set()
-for rawresult in [rawGoogleVoice, raw9News, rawAmericasvoice, rawBestbuy, rawCBS, rawCNN, rawCWSeed, rawEspn, rawFuboTV, rawHBO, rawHuluUSA, rawStarPlus, rawSling, rawNBC, rawOreilly, rawPBS, rawPeacock, rawViki]:
+for rawresult in [rawGoogleVoice, raw9News, rawAmericasvoice, rawBestbuy, rawCBS, rawCNN, rawCWSeed, rawEspn, rawFuboTV, rawHuluUSA, rawStarPlus, rawSling, rawNBC, rawOreilly, rawPBS, rawPeacock, rawViki]:
     for item in rawresult.split('\n'):
         if item.startswith('#') or item.startswith('payload:') or item in unique_lines:
             continue
