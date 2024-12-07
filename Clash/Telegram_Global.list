@@ -1,5 +1,5 @@
 # Telegram_Global.list
-# Generated at 2024-12-07 04:11:35
+# Generated at 2024-12-08 04:10:10
 
 DOMAIN,api.imem.app
 DOMAIN,api.swiftgram.app
@@ -36,6 +36,7 @@ PROCESS-NAME,nekox.messenger
 PROCESS-NAME,org.telegram.messenger
 PROCESS-NAME,telegram-desktop
 PROCESS-NAME,tw.nekomimi.nekogram
+PROCESS-NAME,xyz.nextalone.nagram
 IP-ASN,211157,no-resolve
 IP-ASN,44907,no-resolve
 IP-ASN,59930,no-resolve
