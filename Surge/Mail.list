@@ -1,22 +1,22 @@
 # Mail.list
-# Generated at 2024-12-d 04:12:07
+# Generated at 2024-12-d 04:12:02
 
+DOMAIN-SUFFIX,m.hotmail.com
+DOMAIN,pop.gmail.com
 DOMAIN,apple.smtp.mail.yahoo.com
-DOMAIN-SUFFIX,imap.yandex.com
-DOMAIN-SUFFIX,protonstatus.com
-DOMAIN,smtp.gmail.com
+DOMAIN-SUFFIX,protonmail.ch
+DOMAIN,imap-mail.outlook.com
+DOMAIN,imap.gmail.com
+DOMAIN,smtp-mail.outlook.com
+DOMAIN-SUFFIX,proton.me
 DOMAIN,outlook.office365.com
 DOMAIN-SUFFIX,pm.me
-DOMAIN,imap.gmail.com
 DOMAIN,smtp.office365.com
-DOMAIN-SUFFIX,smtp.yandex.com
-DOMAIN-SUFFIX,proton.me
-DOMAIN,imap-mail.outlook.com
-DOMAIN-SUFFIX,protonmail.ch
-DOMAIN-SUFFIX,m.hotmail.com
-DOMAIN,smtp-mail.outlook.com
 DOMAIN-SUFFIX,protonmail.com
-DOMAIN,pop.gmail.com
+DOMAIN,smtp.gmail.com
+DOMAIN-SUFFIX,smtp.yandex.com
+DOMAIN-SUFFIX,protonstatus.com
+DOMAIN-SUFFIX,imap.yandex.com
 DOMAIN,apple.imap.mail.yahoo.com
 DOMAIN-SUFFIX,mail.me.com
 
