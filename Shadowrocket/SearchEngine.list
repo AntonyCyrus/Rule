@@ -1,49 +1,49 @@
 # SearchEngine.list
-# Generated at 2025-03-12 04:12:35
+# Generated at 2025-03-13 04:12:36
 
-DOMAIN-SUFFIX,dontbubble.us
-DOMAIN-SUFFIX,privacysimplified.com
-DOMAIN-SUFFIX,duckduckgo.org
-DOMAIN-SUFFIX,duckduckco.de
-DOMAIN-SUFFIX,spreadprivacy.com
-DOMAIN-SUFFIX,ddh.gg
-DOMAIN-SUFFIX,duckduckgo.jp
-DOMAIN-SUFFIX,donttrack.us
-DOMAIN-SUFFIX,duckduckgo.pl
-DOMAIN-SUFFIX,goduckgo.com
-DOMAIN-SUFFIX,duckduckgo.dk
-DOMAIN-SUFFIX,duckduckco.com
-DOMAIN-SUFFIX,justduckit.com
-DOMAIN-SUFFIX,dgg.gg
-404: Not Found
-DOMAIN-SUFFIX,hacksear.ch
-DOMAIN-SUFFIX,duckduckgo.de
-DOMAIN-SUFFIX,ducksear.ch
-DOMAIN-SUFFIX,enteentegeh.de
-DOMAIN-SUFFIX,duck.co
-DOMAIN-SUFFIX,cispaletter.com
-DOMAIN-SUFFIX,privatebrowsingmyths.com
-DOMAIN-SUFFIX,duckduckgo.co
-DOMAIN-SUFFIX,ddg.co
-DOMAIN-SUFFIX,duck.com
-DOMAIN-SUFFIX,duckduckgo.mx
-DOMAIN-SUFFIX,fixtracking.com
-DOMAIN-SUFFIX,cispaletter.org
-DOMAIN-SUFFIX,duckduckgo.com.mx
-DOMAIN-SUFFIX,duckduckgo.ke
-DOMAIN-SUFFIX,duckduckgo.ca
-DOMAIN-SUFFIX,duckduckgo.nl
-DOMAIN-SUFFIX,duckduckgo.uk
-DOMAIN-SUFFIX,duckduckgo.co.uk
-DOMAIN-SUFFIX,duckduckgo.in
-DOMAIN-SUFFIX,duckduckhack.com
-DOMAIN-SUFFIX,duckside.com
-DOMAIN-SUFFIX,ddg.gg
 DOMAIN-SUFFIX,duckduckgo.com.tw
+DOMAIN-SUFFIX,duckduckco.de
 DOMAIN-SUFFIX,cometotheduckside.com
-DOMAIN-SUFFIX,dukgo.com
+DOMAIN-SUFFIX,duckduckgo.ke
+DOMAIN-SUFFIX,duckduckgo.mx
+DOMAIN-SUFFIX,duckduckgo.uk
+DOMAIN-SUFFIX,cispaletter.com
+DOMAIN-SUFFIX,goduckgo.com
+DOMAIN-SUFFIX,ducksear.ch
+DOMAIN-SUFFIX,hacksear.ch
+DOMAIN-SUFFIX,enteentegeh.de
+DOMAIN-SUFFIX,duckduckgo.pl
 DOMAIN-SUFFIX,duckgo.com
-DOMAIN-SUFFIX,duckduckgo.sg
+DOMAIN-SUFFIX,duckduckgo.co.uk
+DOMAIN-SUFFIX,duckduckco.com
+DOMAIN-SUFFIX,privacysimplified.com
+DOMAIN-SUFFIX,fixtracking.com
+DOMAIN-SUFFIX,spreadprivacy.com
+DOMAIN-SUFFIX,duckside.com
+DOMAIN-SUFFIX,duckduckgo.ca
+DOMAIN-SUFFIX,duckduckgo.de
+DOMAIN-SUFFIX,duckduckhack.com
+DOMAIN-SUFFIX,ddh.gg
+DOMAIN-SUFFIX,privatebrowsingmyths.com
+DOMAIN-SUFFIX,duckduckgo.dk
+DOMAIN-SUFFIX,duckduckgo.nl
+DOMAIN-SUFFIX,dontbubble.us
+DOMAIN-SUFFIX,duckduckgo.jp
+DOMAIN-SUFFIX,dukgo.com
+DOMAIN-SUFFIX,duck.co
+DOMAIN-SUFFIX,donttrack.us
+DOMAIN-SUFFIX,duckduckgo.co
 DOMAIN-SUFFIX,duckduckgo.com
+DOMAIN-SUFFIX,duckduckgo.com.mx
+DOMAIN-SUFFIX,duck.com
+DOMAIN-SUFFIX,dgg.gg
+DOMAIN-SUFFIX,justduckit.com
+DOMAIN-SUFFIX,ddg.co
+DOMAIN-SUFFIX,duckduckgo.org
+DOMAIN-SUFFIX,duckduckgo.in
+DOMAIN-SUFFIX,cispaletter.org
+404: Not Found
+DOMAIN-SUFFIX,ddg.gg
+DOMAIN-SUFFIX,duckduckgo.sg
 
 # This configuration file has been generated successfully.
