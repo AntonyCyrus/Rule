@@ -377,8 +377,6 @@ payload:
   - DOMAIN-SUFFIX,disqus.com
   - DOMAIN-SUFFIX,disquscdn.com
   - DOMAIN-SUFFIX,disqusservice.com
-  - DOMAIN-SUFFIX,dubox.com
-  - DOMAIN-SUFFIX,duboxcdn.com
   - DOMAIN-SUFFIX,db.tt
   - DOMAIN-SUFFIX,dropbox-dns.com
   - DOMAIN-SUFFIX,dropbox.com
@@ -698,6 +696,9 @@ payload:
   - DOMAIN-SUFFIX,wofl.tv
   - DOMAIN-SUFFIX,woflthenewsstation.com
   - DOMAIN-SUFFIX,wogx.com
+  - DOMAIN-SUFFIX,gitbook.com
+  - DOMAIN-SUFFIX,gitbook.io
+  - DOMAIN-SUFFIX,gitbook.zendesk.com
   - DOMAIN-SUFFIX,atom.io
   - DOMAIN-SUFFIX,dependabot.com
   - DOMAIN-SUFFIX,ghcr.io
@@ -760,6 +761,37 @@ payload:
   - DOMAIN-SUFFIX,itvstatic.com
   - DOMAIN-SUFFIX,imgur.com
   - DOMAIN-SUFFIX,imgurinc.com
+  - DOMAIN,last.us11.list-manage.com
+  - DOMAIN,lastfm-img2.akamaized.net
+  - DOMAIN-SUFFIX,audioscrobbler.com
+  - DOMAIN-SUFFIX,bbfc1.tk
+  - DOMAIN-SUFFIX,bc9oa.tk
+  - DOMAIN-SUFFIX,bvuno.tk
+  - DOMAIN-SUFFIX,cqyos.tk
+  - DOMAIN-SUFFIX,fuckyeahtfx.com
+  - DOMAIN-SUFFIX,halkz.tk
+  - DOMAIN-SUFFIX,itnnl.tk
+  - DOMAIN-SUFFIX,jdw1v.tk
+  - DOMAIN-SUFFIX,kn5ak.tk
+  - DOMAIN-SUFFIX,kwcnn.tk
+  - DOMAIN-SUFFIX,last.fm
+  - DOMAIN-SUFFIX,lastfm.cn
+  - DOMAIN-SUFFIX,lastfm.de
+  - DOMAIN-SUFFIX,lastfm.es
+  - DOMAIN-SUFFIX,lastfm.eu
+  - DOMAIN-SUFFIX,lastfm.freetls.fastly.net
+  - DOMAIN-SUFFIX,lastfm.ph
+  - DOMAIN-SUFFIX,lastfm.pl
+  - DOMAIN-SUFFIX,lastfm.ru
+  - DOMAIN-SUFFIX,lastfmpresents.com
+  - DOMAIN-SUFFIX,mwrel.tk
+  - DOMAIN-SUFFIX,oilofhaemony.com
+  - DOMAIN-SUFFIX,ouchmonkey.com
+  - DOMAIN-SUFFIX,pqqx2.tk
+  - DOMAIN-SUFFIX,rfnva.tk
+  - DOMAIN-SUFFIX,rmohl.tk
+  - DOMAIN-SUFFIX,tnjqk.tk
+  - DOMAIN-SUFFIX,wznka.tk
   - DOMAIN-SUFFIX,mega.co.nz
   - DOMAIN-SUFFIX,mega.io
   - DOMAIN-SUFFIX,mega.nz
@@ -795,6 +827,10 @@ payload:
   - DOMAIN-SUFFIX,seamonkey-project.org
   - DOMAIN-SUFFIX,sentry.prod.mozaws.net
   - DOMAIN-SUFFIX,thunderbird.net
+  # > MUBI
+  - PROCESS-NAME,com.mubi
+  - DOMAIN-SUFFIX,mubi.com
+  - DOMAIN-SUFFIX,mubicdn.net
   - DOMAIN-SUFFIX,cn.ntp.org.cn
   - DOMAIN-SUFFIX,de.ntp.org.cn
   - DOMAIN-SUFFIX,edu.ntp.org.cn
@@ -876,6 +912,16 @@ payload:
   - DOMAIN-SUFFIX,time7.apple.com
   - DOMAIN-SUFFIX,tw.ntp.org.cn
   - DOMAIN-SUFFIX,us.ntp.org.cn
+  - DOMAIN-SUFFIX,overcast.fm
+  - DOMAIN,cbsi.live.ott.irdeto.com
+  - DOMAIN,cbsplaylistserver.aws.syncbak.com
+  - DOMAIN,cbsservice.aws.syncbak.com
+  - DOMAIN,link.theplatform.com
+  - DOMAIN-SUFFIX,cbsaavideo.com
+  - DOMAIN-SUFFIX,cbsi.com
+  - DOMAIN-SUFFIX,cbsivideo.com
+  - DOMAIN-SUFFIX,paramountplus.com
+  - DOMAIN-SUFFIX,pplusstatic.com
   - DOMAIN-SUFFIX,dlandroid.rcv.sandai.net
   - DOMAIN-SUFFIX,hub5idx.v6.shub.sandai.net
   - DOMAIN-SUFFIX,hub5pn.wap.sandai.net
@@ -883,6 +929,27 @@ payload:
   - DOMAIN-SUFFIX,hub5pr.v6.phub.sandai.net
   - DOMAIN-SUFFIX,hubciddata.sandai.net
   - DOMAIN-KEYWORD,mypikpak
+  - DOMAIN-SUFFIX,shopee.cl
+  - DOMAIN-SUFFIX,shopee.cn
+  - DOMAIN-SUFFIX,shopee.co.id
+  - DOMAIN-SUFFIX,shopee.co.th
+  - DOMAIN-SUFFIX,shopee.com
+  - DOMAIN-SUFFIX,shopee.com.br
+  - DOMAIN-SUFFIX,shopee.com.co
+  - DOMAIN-SUFFIX,shopee.com.mx
+  - DOMAIN-SUFFIX,shopee.com.my
+  - DOMAIN-SUFFIX,shopee.es
+  - DOMAIN-SUFFIX,shopee.fr
+  - DOMAIN-SUFFIX,shopee.id
+  - DOMAIN-SUFFIX,shopee.in
+  - DOMAIN-SUFFIX,shopee.io
+  - DOMAIN-SUFFIX,shopee.ph
+  - DOMAIN-SUFFIX,shopee.sg
+  - DOMAIN-SUFFIX,shopee.tw
+  - DOMAIN-SUFFIX,shopee.vn
+  - DOMAIN-SUFFIX,shopeemobile.com
+  - DOMAIN-SUFFIX,shopeesz.com
+  - DOMAIN-SUFFIX,shp.ee
   - DOMAIN-SUFFIX,myshopify.com
   - DOMAIN-SUFFIX,shop.app
   - DOMAIN-SUFFIX,shopify.com
@@ -959,28 +1026,6 @@ payload:
   - DOMAIN-KEYWORD,musical.ly
   - DOMAIN-KEYWORD,tiktok
   - PROCESS-NAME,com.zhiliaoapp.musically
-  - DOMAIN-SUFFIX,ext-twitch.tv
-  - DOMAIN-SUFFIX,jtvnw.net
-  - DOMAIN-SUFFIX,live-video.net
-  - DOMAIN-SUFFIX,ttvnw.net
-  - DOMAIN-SUFFIX,twitch-ext.rootonline.de
-  - DOMAIN-SUFFIX,twitch.tv
-  - DOMAIN-SUFFIX,twitchcdn.net
-  - DOMAIN-SUFFIX,twitchsvc.net
-  - DOMAIN-KEYWORD,ttvnw
-  - IP-CIDR,103.53.48.0/23
-  - IP-CIDR,185.42.204.0/22
-  - IP-CIDR,192.108.239.0/24
-  - IP-CIDR,192.16.64.0/21
-  - IP-CIDR,199.9.248.0/21
-  - IP-CIDR,23.160.0.0/24
-  - IP-CIDR,45.113.128.0/22
-  - IP-CIDR,52.223.192.0/20
-  - IP-CIDR,52.223.208.0/21
-  - IP-CIDR,52.223.224.0/19
-  - IP-CIDR,99.181.64.0/18
-  - IP-CIDR6,2402:2a80::/32
-  - PROCESS-NAME,tv.twitch.android.app
   - DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com
   - DOMAIN-SUFFIX,d1k2us671qcoau.cloudfront.net
   - DOMAIN-SUFFIX,d2anahhhmp1ffz.cloudfront.net
