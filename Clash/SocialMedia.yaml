@@ -791,6 +791,9 @@ payload:
   - DOMAIN-SUFFIX,superuser.com
   - DOMAIN-SUFFIX,tex-talk.net
   - DOMAIN-SUFFIX,thesffblog.com
+  - DOMAIN-SUFFIX,tmblr.co
+  - DOMAIN-SUFFIX,tumblr.co
+  - DOMAIN-SUFFIX,tumblr.com
   - DOMAIN-SUFFIX,ads-twitter.com
   - DOMAIN-SUFFIX,cms-twdigitalassets.com
   - DOMAIN-SUFFIX,periscope.tv

@@ -377,6 +377,8 @@ payload:
   - DOMAIN-SUFFIX,disqus.com
   - DOMAIN-SUFFIX,disquscdn.com
   - DOMAIN-SUFFIX,disqusservice.com
+  - DOMAIN-SUFFIX,dubox.com
+  - DOMAIN-SUFFIX,duboxcdn.com
   - DOMAIN-SUFFIX,db.tt
   - DOMAIN-SUFFIX,dropbox-dns.com
   - DOMAIN-SUFFIX,dropbox.com
@@ -443,6 +445,13 @@ payload:
   - DOMAIN-SUFFIX,worldemojiday.com
   - DOMAIN-SUFFIX,fox.com
   - DOMAIN-SUFFIX,foxdcg.com
+  - DOMAIN,cdn-fox-networks-group-green.akamaized.net
+  - DOMAIN,d3cv4a9a9wh0bt.cloudfront.net
+  - DOMAIN,foxsports01-i.akamaihd.net
+  - DOMAIN,foxsports02-i.akamaihd.net
+  - DOMAIN,foxsports03-i.akamaihd.net
+  - DOMAIN,staticasiafox.akamaized.net
+  - DOMAIN-SUFFIX,foxplus.com
   - DOMAIN-SUFFIX,afewmomentswith.com
   - DOMAIN-SUFFIX,anidom.com
   - DOMAIN-SUFFIX,bentobox.tv
@@ -559,7 +568,6 @@ payload:
   - DOMAIN-SUFFIX,foxon.com
   - DOMAIN-SUFFIX,foxphiladelphia.com
   - DOMAIN-SUFFIX,foxplay.com
-  - DOMAIN-SUFFIX,foxplus.com
   - DOMAIN-SUFFIX,foxpoker.com
   - DOMAIN-SUFFIX,foxrad.io
   - DOMAIN-SUFFIX,foxredeem.com
@@ -1026,6 +1034,28 @@ payload:
   - DOMAIN-KEYWORD,musical.ly
   - DOMAIN-KEYWORD,tiktok
   - PROCESS-NAME,com.zhiliaoapp.musically
+  - DOMAIN-SUFFIX,ext-twitch.tv
+  - DOMAIN-SUFFIX,jtvnw.net
+  - DOMAIN-SUFFIX,live-video.net
+  - DOMAIN-SUFFIX,ttvnw.net
+  - DOMAIN-SUFFIX,twitch-ext.rootonline.de
+  - DOMAIN-SUFFIX,twitch.tv
+  - DOMAIN-SUFFIX,twitchcdn.net
+  - DOMAIN-SUFFIX,twitchsvc.net
+  - DOMAIN-KEYWORD,ttvnw
+  - IP-CIDR,103.53.48.0/23
+  - IP-CIDR,185.42.204.0/22
+  - IP-CIDR,192.108.239.0/24
+  - IP-CIDR,192.16.64.0/21
+  - IP-CIDR,199.9.248.0/21
+  - IP-CIDR,23.160.0.0/24
+  - IP-CIDR,45.113.128.0/22
+  - IP-CIDR,52.223.192.0/20
+  - IP-CIDR,52.223.208.0/21
+  - IP-CIDR,52.223.224.0/19
+  - IP-CIDR,99.181.64.0/18
+  - IP-CIDR6,2402:2a80::/32
+  - PROCESS-NAME,tv.twitch.android.app
   - DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com
   - DOMAIN-SUFFIX,d1k2us671qcoau.cloudfront.net
   - DOMAIN-SUFFIX,d2anahhhmp1ffz.cloudfront.net
