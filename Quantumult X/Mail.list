@@ -1,22 +1,22 @@
 # Mail.list
-# Generated at 2025-06-16 04:12:15
+# Generated at 2025-06-17 04:13:25
 
-HOST,pop.gmail.com,Mail
-HOST-SUFFIX,m.hotmail.com,Mail
-HOST,smtp.office365.com,Mail
-HOST-SUFFIX,imap.yandex.com,Mail
-HOST-SUFFIX,proton.me,Protonmail
-HOST,outlook.office365.com,Mail
-HOST,imap.gmail.com,Mail
-HOST-SUFFIX,pm.me,Protonmail
-HOST-SUFFIX,protonmail.com,Protonmail
-HOST-SUFFIX,protonstatus.com,Protonmail
-HOST,apple.imap.mail.yahoo.com,Mail
-HOST-SUFFIX,smtp.yandex.com,Mail
-HOST-SUFFIX,protonmail.ch,Protonmail
-HOST,smtp-mail.outlook.com,Mail
-HOST,apple.smtp.mail.yahoo.com,Mail
-HOST,imap-mail.outlook.com,Mail
 HOST,smtp.gmail.com,Mail
+HOST,smtp-mail.outlook.com,Mail
+HOST-SUFFIX,protonmail.com,Protonmail
+HOST,apple.imap.mail.yahoo.com,Mail
+HOST-SUFFIX,m.hotmail.com,Mail
+HOST-SUFFIX,protonstatus.com,Protonmail
+HOST-SUFFIX,proton.me,Protonmail
+HOST,smtp.office365.com,Mail
+HOST-SUFFIX,smtp.yandex.com,Mail
+HOST-SUFFIX,pm.me,Protonmail
+HOST,imap-mail.outlook.com,Mail
+HOST,imap.gmail.com,Mail
+HOST,pop.gmail.com,Mail
+HOST-SUFFIX,imap.yandex.com,Mail
+HOST,outlook.office365.com,Mail
+HOST-SUFFIX,protonmail.ch,Protonmail
+HOST,apple.smtp.mail.yahoo.com,Mail
 
 # This configuration file has been generated successfully.
