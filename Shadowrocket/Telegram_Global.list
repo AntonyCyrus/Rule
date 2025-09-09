@@ -1,5 +1,5 @@
 # Telegram_Global.list
-# Generated at 2025-09-09 04:12:46
+# Generated at 2025-09-10 04:13:18
 
 DOMAIN,api.imem.app
 DOMAIN,api.swiftgram.app
@@ -27,6 +27,8 @@ DOMAIN-SUFFIX,tx.me
 DOMAIN-SUFFIX,usercontent.dev
 DOMAIN-KEYWORD,nicegram
 IP-CIDR,109.239.140.0/24,no-resolve
+IP-CIDR,139.59.210.98/32,no-resolve
+IP-CIDR,196.55.216.167/32,no-resolve
 IP-CIDR,2001:b28:f23c::/47,no-resolve
 IP-CIDR,2a0a:f280::/29,no-resolve
 IP-CIDR,5.28.192.0/18,no-resolve
