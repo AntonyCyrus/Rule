@@ -1,49 +1,49 @@
 # SearchEngine.list
-# Generated at 2025-10-01 04:13:01
+# Generated at 2025-10-02 04:13:58
 
-DOMAIN-SUFFIX,duckduckgo.jp
-DOMAIN-SUFFIX,donttrack.us
-DOMAIN-SUFFIX,duck.co
-DOMAIN-SUFFIX,justduckit.com
-DOMAIN-SUFFIX,duckside.com
-DOMAIN-SUFFIX,duckduckgo.uk
 DOMAIN-SUFFIX,duckduckhack.com
-DOMAIN-SUFFIX,duck.com
-DOMAIN-SUFFIX,ddg.gg
-DOMAIN-SUFFIX,duckduckgo.nl
-DOMAIN-SUFFIX,duckduckco.com
-DOMAIN-SUFFIX,spreadprivacy.com
-DOMAIN-SUFFIX,duckduckgo.dk
-DOMAIN-SUFFIX,duckgo.com
 DOMAIN-SUFFIX,dontbubble.us
-DOMAIN-SUFFIX,hacksear.ch
-DOMAIN-SUFFIX,privacysimplified.com
-DOMAIN-SUFFIX,duckduckgo.com
-DOMAIN-SUFFIX,duckduckgo.co.uk
-DOMAIN-SUFFIX,duckduckgo.pl
-DOMAIN-SUFFIX,duckduckgo.ca
-DOMAIN-SUFFIX,dgg.gg
-DOMAIN-SUFFIX,duckduckgo.com.tw
-DOMAIN-SUFFIX,cometotheduckside.com
-DOMAIN-SUFFIX,duckduckgo.de
-DOMAIN-SUFFIX,duckduckgo.in
-DOMAIN-SUFFIX,duckduckgo.co
-DOMAIN-SUFFIX,ddh.gg
-DOMAIN-SUFFIX,ddg.co
-DOMAIN-SUFFIX,fixtracking.com
-DOMAIN-SUFFIX,cispaletter.org
-DOMAIN-SUFFIX,duckduckgo.ke
-DOMAIN-SUFFIX,duckduckgo.mx
-DOMAIN-SUFFIX,duckduckgo.org
-DOMAIN-SUFFIX,goduckgo.com
-DOMAIN-SUFFIX,privatebrowsingmyths.com
-DOMAIN-SUFFIX,cispaletter.com
-DOMAIN-SUFFIX,dukgo.com
-404: Not Found
-DOMAIN-SUFFIX,ducksear.ch
-DOMAIN-SUFFIX,duckduckgo.sg
 DOMAIN-SUFFIX,duckduckgo.com.mx
-DOMAIN-SUFFIX,duckduckco.de
+DOMAIN-SUFFIX,duckduckgo.mx
+DOMAIN-SUFFIX,spreadprivacy.com
+DOMAIN-SUFFIX,duckside.com
 DOMAIN-SUFFIX,enteentegeh.de
+DOMAIN-SUFFIX,duckduckco.de
+DOMAIN-SUFFIX,goduckgo.com
+DOMAIN-SUFFIX,donttrack.us
+DOMAIN-SUFFIX,duckduckgo.co.uk
+DOMAIN-SUFFIX,privatebrowsingmyths.com
+DOMAIN-SUFFIX,duckduckgo.com.tw
+DOMAIN-SUFFIX,fixtracking.com
+DOMAIN-SUFFIX,ddg.co
+DOMAIN-SUFFIX,duckduckgo.nl
+DOMAIN-SUFFIX,duckduckgo.uk
+DOMAIN-SUFFIX,dgg.gg
+DOMAIN-SUFFIX,ducksear.ch
+DOMAIN-SUFFIX,duckduckgo.com
+DOMAIN-SUFFIX,duck.com
+DOMAIN-SUFFIX,cispaletter.com
+DOMAIN-SUFFIX,cometotheduckside.com
+DOMAIN-SUFFIX,duckduckco.com
+DOMAIN-SUFFIX,duckduckgo.sg
+DOMAIN-SUFFIX,duckduckgo.co
+DOMAIN-SUFFIX,cispaletter.org
+DOMAIN-SUFFIX,dukgo.com
+DOMAIN-SUFFIX,ddg.gg
+DOMAIN-SUFFIX,duckgo.com
+DOMAIN-SUFFIX,duckduckgo.pl
+404: Not Found
+DOMAIN-SUFFIX,duckduckgo.dk
+DOMAIN-SUFFIX,ddh.gg
+DOMAIN-SUFFIX,duckduckgo.ca
+DOMAIN-SUFFIX,duckduckgo.org
+DOMAIN-SUFFIX,duckduckgo.jp
+DOMAIN-SUFFIX,duckduckgo.ke
+DOMAIN-SUFFIX,hacksear.ch
+DOMAIN-SUFFIX,duck.co
+DOMAIN-SUFFIX,duckduckgo.in
+DOMAIN-SUFFIX,duckduckgo.de
+DOMAIN-SUFFIX,justduckit.com
+DOMAIN-SUFFIX,privacysimplified.com
 
 # This configuration file has been generated successfully.
