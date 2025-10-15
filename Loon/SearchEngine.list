@@ -1,49 +1,49 @@
 # SearchEngine.list
-# Generated at 2025-10-15 04:12:18
+# Generated at 2025-10-16 04:13:15
 
-DOMAIN-SUFFIX,duckduckgo.nl
-404: Not Found
-DOMAIN-SUFFIX,ducksear.ch
-DOMAIN-SUFFIX,privatebrowsingmyths.com
-DOMAIN-SUFFIX,duckduckhack.com
-DOMAIN-SUFFIX,duckduckgo.de
-DOMAIN-SUFFIX,goduckgo.com
-DOMAIN-SUFFIX,fixtracking.com
 DOMAIN-SUFFIX,ddh.gg
-DOMAIN-SUFFIX,donttrack.us
 DOMAIN-SUFFIX,privacysimplified.com
-DOMAIN-SUFFIX,duckduckgo.com.mx
-DOMAIN-SUFFIX,duckduckgo.in
-DOMAIN-SUFFIX,duckduckgo.ca
-DOMAIN-SUFFIX,cispaletter.org
-DOMAIN-SUFFIX,justduckit.com
-DOMAIN-SUFFIX,duck.co
-DOMAIN-SUFFIX,duckduckgo.dk
-DOMAIN-SUFFIX,duckduckgo.com.tw
-DOMAIN-SUFFIX,duckduckgo.uk
-DOMAIN-SUFFIX,duckduckgo.com
-DOMAIN-SUFFIX,duckduckgo.sg
-DOMAIN-SUFFIX,cometotheduckside.com
-DOMAIN-SUFFIX,ddg.co
-DOMAIN-SUFFIX,dgg.gg
-DOMAIN-SUFFIX,duck.com
-DOMAIN-SUFFIX,duckduckgo.jp
-DOMAIN-SUFFIX,spreadprivacy.com
-DOMAIN-SUFFIX,hacksear.ch
-DOMAIN-SUFFIX,dontbubble.us
-DOMAIN-SUFFIX,duckduckgo.co
-DOMAIN-SUFFIX,ddg.gg
-DOMAIN-SUFFIX,duckduckgo.org
-DOMAIN-SUFFIX,duckduckco.com
-DOMAIN-SUFFIX,duckduckgo.mx
+404: Not Found
 DOMAIN-SUFFIX,duckside.com
-DOMAIN-SUFFIX,duckduckgo.ke
+DOMAIN-SUFFIX,cometotheduckside.com
+DOMAIN-SUFFIX,duck.co
+DOMAIN-SUFFIX,duckduckgo.jp
+DOMAIN-SUFFIX,donttrack.us
+DOMAIN-SUFFIX,duck.com
+DOMAIN-SUFFIX,dgg.gg
+DOMAIN-SUFFIX,hacksear.ch
 DOMAIN-SUFFIX,cispaletter.com
-DOMAIN-SUFFIX,duckgo.com
-DOMAIN-SUFFIX,dukgo.com
-DOMAIN-SUFFIX,enteentegeh.de
-DOMAIN-SUFFIX,duckduckgo.pl
-DOMAIN-SUFFIX,duckduckco.de
+DOMAIN-SUFFIX,goduckgo.com
+DOMAIN-SUFFIX,duckduckgo.com
+DOMAIN-SUFFIX,duckduckgo.com.mx
+DOMAIN-SUFFIX,duckduckgo.nl
+DOMAIN-SUFFIX,duckduckgo.com.tw
+DOMAIN-SUFFIX,duckduckgo.ke
+DOMAIN-SUFFIX,duckduckhack.com
 DOMAIN-SUFFIX,duckduckgo.co.uk
+DOMAIN-SUFFIX,duckduckgo.in
+DOMAIN-SUFFIX,duckduckgo.uk
+DOMAIN-SUFFIX,duckduckgo.sg
+DOMAIN-SUFFIX,ducksear.ch
+DOMAIN-SUFFIX,duckduckgo.pl
+DOMAIN-SUFFIX,dukgo.com
+DOMAIN-SUFFIX,duckduckco.de
+DOMAIN-SUFFIX,duckduckgo.co
+DOMAIN-SUFFIX,fixtracking.com
+DOMAIN-SUFFIX,spreadprivacy.com
+DOMAIN-SUFFIX,justduckit.com
+DOMAIN-SUFFIX,ddg.gg
+DOMAIN-SUFFIX,duckduckgo.mx
+DOMAIN-SUFFIX,duckduckgo.dk
+DOMAIN-SUFFIX,duckduckgo.de
+DOMAIN-SUFFIX,enteentegeh.de
+DOMAIN-SUFFIX,ddg.co
+DOMAIN-SUFFIX,cispaletter.org
+DOMAIN-SUFFIX,privatebrowsingmyths.com
+DOMAIN-SUFFIX,duckduckgo.ca
+DOMAIN-SUFFIX,duckduckco.com
+DOMAIN-SUFFIX,duckduckgo.org
+DOMAIN-SUFFIX,duckgo.com
+DOMAIN-SUFFIX,dontbubble.us
 
 # This configuration file has been generated successfully.
