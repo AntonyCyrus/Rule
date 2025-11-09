@@ -1,22 +1,22 @@
 # Mail.list
-# Generated at 2025-11-09 04:11:14
+# Generated at 2025-11-10 04:11:26
 
-DOMAIN,pop.gmail.com
-DOMAIN-SUFFIX,protonmail.com
-DOMAIN,imap-mail.outlook.com
-DOMAIN-SUFFIX,protonstatus.com
-DOMAIN,outlook.office365.com
-DOMAIN-SUFFIX,protonmail.ch
 DOMAIN,apple.imap.mail.yahoo.com
-DOMAIN,smtp-mail.outlook.com
-DOMAIN-SUFFIX,imap.yandex.com
-DOMAIN-SUFFIX,smtp.yandex.com
-DOMAIN-SUFFIX,pm.me
-DOMAIN,apple.smtp.mail.yahoo.com
-DOMAIN,smtp.gmail.com
-DOMAIN-SUFFIX,m.hotmail.com
-DOMAIN-SUFFIX,proton.me
-DOMAIN,smtp.office365.com
+DOMAIN,imap-mail.outlook.com
 DOMAIN,imap.gmail.com
+DOMAIN-SUFFIX,imap.yandex.com
+DOMAIN,smtp.office365.com
+DOMAIN-SUFFIX,pm.me
+DOMAIN,smtp.gmail.com
+DOMAIN-SUFFIX,protonmail.com
+DOMAIN,outlook.office365.com
+DOMAIN-SUFFIX,m.hotmail.com
+DOMAIN-SUFFIX,smtp.yandex.com
+DOMAIN-SUFFIX,protonstatus.com
+DOMAIN,apple.smtp.mail.yahoo.com
+DOMAIN-SUFFIX,protonmail.ch
+DOMAIN-SUFFIX,proton.me
+DOMAIN,smtp-mail.outlook.com
+DOMAIN,pop.gmail.com
 
 # This configuration file has been generated successfully.
