@@ -1,12 +1,12 @@
 # INMedia.list
-# Generated at 2026-01-17 04:14:09
+# Generated at 2026-01-18 04:13:00
 
-HOST-SUFFIX,z5.com,ZeeTV
-HOST-SUFFIX,zee5.in,ZeeTV
-HOST-SUFFIX,zeetv.co.uk,ZeeTV
 HOST-SUFFIX,zeeuk.com,ZeeTV
-HOST-SUFFIX,zeetv.com,ZeeTV
 HOST-SUFFIX,z5.app,ZeeTV
+HOST-SUFFIX,zee5.in,ZeeTV
+HOST-SUFFIX,z5.com,ZeeTV
+HOST-SUFFIX,zeetv.com,ZeeTV
+HOST-SUFFIX,zeetv.co.uk,ZeeTV
 HOST-SUFFIX,zeebioskop.com,ZeeTV
 HOST-SUFFIX,zee5.tv,ZeeTV
 HOST-SUFFIX,zee5.com,ZeeTV
