@@ -290,9 +290,7 @@ payload:
   - DOMAIN-SUFFIX,cakeapp.me
   - DOMAIN-SUFFIX,mycake.me
   # > Crunchyroll
-  # USER-AGENT,Crunchyroll*
   - DOMAIN-SUFFIX,crunchyroll.com
-  # DOMAIN-SUFFIX,vrv.co
   - DOMAIN-SUFFIX,aex.com
   - DOMAIN-SUFFIX,aicoin.com
   - DOMAIN-SUFFIX,aimoon.com
@@ -837,7 +835,6 @@ payload:
   - DOMAIN-SUFFIX,sentry.prod.mozaws.net
   - DOMAIN-SUFFIX,thunderbird.net
   # > MUBI
-  - PROCESS-NAME,com.mubi
   - DOMAIN-SUFFIX,mubi.com
   - DOMAIN-SUFFIX,mubicdn.net
   - DOMAIN-SUFFIX,cn.ntp.org.cn
@@ -968,15 +965,7 @@ payload:
   - DOMAIN-SUFFIX,shopifycloud.com
   - DOMAIN-SUFFIX,shopifystatus.com
   - DOMAIN-SUFFIX,shopifysvc.com
-  # > Star+
-  # USER-AGENT,Star+
-  # PROCESS-NAME,com.disney.starplus
-  - DOMAIN-SUFFIX,starplus.com
-  - DOMAIN-SUFFIX,starott.com
-  - DOMAIN,star.api.edge.bamgrid.com
-  - DOMAIN,star.connections.edge.bamgrid.com
-  - DOMAIN,star.content.edge.bamgrid.com
-  - DOMAIN,star.playback.edge.bamgrid.com
+404: Not Found
   - DOMAIN-SUFFIX,aranzadi.es
   - DOMAIN-SUFFIX,corepublishingsolutions.com
   - DOMAIN-SUFFIX,elite.com

@@ -61,7 +61,6 @@ payload:
   - DOMAIN-SUFFIX,nikkei.com
   - DOMAIN-SUFFIX,nikkei.jp
   # > Paravi
-  # USER-AGENT,Paravi*
   - DOMAIN-SUFFIX,paravi.jp
   - DOMAIN-SUFFIX,booth.pm
   - DOMAIN-SUFFIX,fanbox.cc
@@ -86,9 +85,6 @@ payload:
   - DOMAIN-SUFFIX,brightcove.com
   - DOMAIN-SUFFIX,prod.boltdns.net
   # > U-NEXT
-  - PROCESS-NAME,jp.unext.mediaplayer
-  - PROCESS-NAME,jp.unext.tv.player
   - DOMAIN-SUFFIX,unext.jp
   - DOMAIN-SUFFIX,nxtv.jp
-  # DOMAIN,streamd01ca-nxtv-jp.akamaized.net
   - DOMAIN,us-central1-u-next-apps.cloudfunctions.net

@@ -8,10 +8,6 @@ payload:
   - DOMAIN-SUFFIX,viblast.com
 
   # > CATCHPLAY+
-  # USER-AGENT,CATCHPLAY*
-  - PROCESS-NAME,com.catchplay.asiaplay
-  - PROCESS-NAME,com.catchplay.asiaplay.tv
-  - PROCESS-NAME,com.catchplay.asiaplay.common.tv
   - DOMAIN-SUFFIX,catchplay.com
   - DOMAIN,asiaplay-origin.s3.amazonaws.com
   - DOMAIN,tra-ww000-cp.akamaized.net
@@ -70,9 +66,6 @@ payload:
   - DOMAIN-SUFFIX,momomall.com.tw
   - DOMAIN-SUFFIX,momoshop.com.tw
   # > myVideo
-  # USER-AGENT,myVideo*
-  - PROCESS-NAME,com.taiwanmobile.myVideo
-  - PROCESS-NAME,com.taiwanmobile.myVideotv
   - DOMAIN-SUFFIX,myvideo.net.tw
   - DOMAIN-SUFFIX,catch.net.tw
   - DOMAIN,applemediaservice.keydelivery.southeastasia.media.azure.net
