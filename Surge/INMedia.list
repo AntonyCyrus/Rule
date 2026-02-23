@@ -1,14 +1,14 @@
 # INMedia.list
-# Generated at 2026-02-23 04:16:26
+# Generated at 2026-02-24 04:36:01
 
-DOMAIN-SUFFIX,z5.app
-DOMAIN-SUFFIX,zeeuk.com
-DOMAIN-SUFFIX,zeetv.com
 DOMAIN-SUFFIX,zee5.in
-DOMAIN-SUFFIX,zee5.tv
-DOMAIN-SUFFIX,z5.com
-DOMAIN-SUFFIX,zee5.com
 DOMAIN-SUFFIX,zeetv.co.uk
 DOMAIN-SUFFIX,zeebioskop.com
+DOMAIN-SUFFIX,z5.com
+DOMAIN-SUFFIX,zee5.com
+DOMAIN-SUFFIX,zeetv.com
+DOMAIN-SUFFIX,zeeuk.com
+DOMAIN-SUFFIX,z5.app
+DOMAIN-SUFFIX,zee5.tv
 
 # This configuration file has been generated successfully.
