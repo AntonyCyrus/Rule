@@ -291,6 +291,8 @@ payload:
   - DOMAIN-SUFFIX,mycake.me
   # > Crunchyroll
   - DOMAIN-SUFFIX,crunchyroll.com
+  # 如需使用 VRV，请将此条取消注释并走 US 代理
+  # DOMAIN-SUFFIX,vrv.co
   - DOMAIN-SUFFIX,aex.com
   - DOMAIN-SUFFIX,aicoin.com
   - DOMAIN-SUFFIX,aimoon.com
