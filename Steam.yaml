@@ -1,0 +1,73 @@
+# =========================
+# Steam 登录 / 调度 / 下载：DIRECT
+# =========================
+
+# 登录认证，结算：直连，降低异地登录/风控提示概率
+  - DOMAIN,login.steampowered.com,DIRECT
+  - DOMAIN,help.steampowered.com,DIRECT
+  - DOMAIN,checkout.steampowered.com,DIRECT
+# Steam Web Session / authorizeddevices / OAuth
+  - DOMAIN,api.steampowered.com,DIRECT
+
+# CM / 调度：直连，用于连接管理和下载 CDN 判定
+  - DOMAIN-SUFFIX,cm.steampowered.com,DIRECT
+
+# 下载内容：直连
+  - DOMAIN-SUFFIX,steamcontent.com,DIRECT
+  - DOMAIN-SUFFIX,steamserver.net,DIRECT
+  - DOMAIN-SUFFIX,steamusercontent.com,DIRECT
+  - DOMAIN-SUFFIX,steamchina.com,DIRECT
+
+# Steam 中国/国内 CDN：直连
+  - DOMAIN,dl.steam.clngaa.com,DIRECT
+  - DOMAIN,dl.steam.ksyna.com,DIRECT
+  - DOMAIN,st.dl.bscstorage.net,DIRECT
+  - DOMAIN,st.dl.eccdnx.com,DIRECT
+  - DOMAIN,st.dl.pinyuncloud.com,DIRECT
+  - DOMAIN,steampipe.steamcontent.tnkjmec.com,DIRECT
+  - DOMAIN,steampowered.com.8686c.com,DIRECT
+  - DOMAIN,steamstatic.com.8686c.com,DIRECT
+  - DOMAIN,xz.pphimalayanrt.com,DIRECT
+
+# 完美世界 / 国服相关：直连
+  - DOMAIN,wmsjsteam.com,DIRECT
+  - DOMAIN,csgo.wmsj.cn,DIRECT
+  - DOMAIN,dota2.wmsj.cn,DIRECT
+
+# =========================
+# Steam 商店 / 社区 / 网页：Proxy
+# =========================
+
+# 商店网页
+  - DOMAIN,store.steampowered.com,Proxy
+  - DOMAIN,partner.steamgames.com,Proxy
+# Steam 社区
+  - DOMAIN-SUFFIX,steamcommunity.com,Proxy
+  - DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net,Proxy
+
+# Steam 静态资源 / 图片 / 用户内容
+  - DOMAIN,media.steampowered.com,Proxy
+  - DOMAIN-SUFFIX,steamstatic.com,Proxy
+  - DOMAIN-SUFFIX,steamstore-a.akamaihd.net,Proxy
+  - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net,Proxy
+  - DOMAIN-SUFFIX,steamusercontent-a.akamaihd.net,Proxy
+  - DOMAIN-SUFFIX,steamuserimages-a.akamaihd.net,Proxy
+  - DOMAIN-SUFFIX,steamvideo-a.akamaihd.net,Proxy
+  - DOMAIN-KEYWORD,steamstore,Proxy
+  - DOMAIN-KEYWORD,steamuserimages,Proxy
+
+# 聊天 / 广播 / 视频 / 状态页
+  - DOMAIN-SUFFIX,steam-chat.com,Proxy
+  - DOMAIN-SUFFIX,steam.tv,Proxy
+  - DOMAIN-SUFFIX,steambroadcast.akamaized.net,Proxy
+  - DOMAIN-SUFFIX,steamstat.us,Proxy
+  - DOMAIN-KEYWORD,steambroadcast,Proxy
+  
+# Valve / Steam 其他服务
+  - DOMAIN-SUFFIX,valvesoftware.com,Proxy
+  - DOMAIN-SUFFIX,steamgames.com,Proxy
+  - DOMAIN-SUFFIX,s.team,Proxy
+  - DOMAIN-SUFFIX,steam-api.com,Proxy
+  
+# Steam 未分类 fallback
+  - DOMAIN-SUFFIX,steampowered.com,DIRECT
