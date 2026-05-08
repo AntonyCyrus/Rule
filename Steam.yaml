@@ -33,7 +33,10 @@
   - DOMAIN,wmsjsteam.com,DIRECT
   - DOMAIN,csgo.wmsj.cn,DIRECT
   - DOMAIN,dota2.wmsj.cn,DIRECT
-
+# Valve 游戏网络 / SDR
+  - DOMAIN-SUFFIX,valve.net,DIRECT
+  - DOMAIN-SUFFIX,steamdatagram.net,DIRECT
+  
 # =========================
 # Steam 商店 / 社区 / 网页：Proxy
 # =========================
