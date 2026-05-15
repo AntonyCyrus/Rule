@@ -1,37 +1,24 @@
 name: Build Rules
 
-# ============================================
-# 触发条件
-# ============================================
-
 on:
 
-  # 手动运行
   workflow_dispatch:
 
-  # 定时运行
   schedule:
 
-    # 每6小时运行一次
-    #
-    # GitHub Actions 使用 UTC 时间
-    #
-    # 北京时间：
-    # UTC+8
-    #
-    # 例如：
-    # 00:00 UTC = 08:00 上海时间
-    #
+    # 每6小时运行一次（UTC时间）
     - cron: "0 */6 * * *"
 
 
 
-# ============================================
-# 最小权限原则
-# ============================================
-
 permissions:
   contents: write
+
+
+
+concurrency:
+  group: rule-build
+  cancel-in-progress: true
 
 
 
@@ -41,43 +28,33 @@ jobs:
 
     runs-on: ubuntu-latest
 
+    timeout-minutes: 30
+
 
 
     steps:
 
-      # ======================================
       # 拉取仓库
-      # ======================================
-
       - name: Checkout Repository
 
         uses: actions/checkout@v4
 
         with:
-
-          # 不保留 git token 到 git config
           persist-credentials: false
 
 
 
-      # ======================================
       # 安装 Python
-      # ======================================
-
       - name: Setup Python
 
         uses: actions/setup-python@v5
 
         with:
-
           python-version: "3.11"
 
 
 
-      # ======================================
       # 安装依赖
-      # ======================================
-
       - name: Install Dependencies
 
         run: |
@@ -88,10 +65,7 @@ jobs:
 
 
 
-      # ======================================
-      # 设置上海时区
-      # ======================================
-
+      # 设置上海时区（可选）
       - name: Set Timezone
 
         run: |
@@ -100,10 +74,7 @@ jobs:
 
 
 
-      # ======================================
-      # 执行 action 目录所有 py
-      # ======================================
-
+      # 执行 action 目录下所有 Python 脚本
       - name: Run Python Scripts
 
         run: |
@@ -121,10 +92,7 @@ jobs:
 
 
 
-      # ======================================
       # Git 提交
-      # ======================================
-
       - name: Commit Changes
 
         run: |
@@ -141,13 +109,10 @@ jobs:
 
 
 
-      # ======================================
       # Push 回仓库
-      # ======================================
-
       - name: Push Changes
 
-        uses: ad-m/github-push-action@master
+        uses: ad-m/github-push-action@v0.8.0
 
         with:
 
