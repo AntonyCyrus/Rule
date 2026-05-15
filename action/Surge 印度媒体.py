@@ -1,33 +1,315 @@
+\
+# ============================================
+# Surge / Shadowrocket / Loon / Stash
+# .list 规则自动聚合脚本（最终优化版）
+#
+# 功能：
+#   1. 自动拉取多个上游规则
+#   2. 自动聚合
+#   3. 自动去重
+#   4. 自动跳过404/失效上游
+#   5. 自动过滤空行和注释
+#   6. 自动添加上海时间时间戳
+#   7. 自动输出到指定路径
+#
+# 适用于：
+#   - Surge
+#
+# 建议：
+#   编码：UTF-8
+#   换行：LF
+# ============================================
+
+
+
+# ============================================
+# 导入模块
+# ============================================
+
+# 网络请求
 import requests
-import pytz
+
+# 时间处理
 from datetime import datetime
 
-result = []
+# 上海时区
+from zoneinfo import ZoneInfo
 
-# 定义需要请求的链接
-urls = [
-    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ZeeTV/ZeeTV.list"
+# 文件/目录操作
+import os
+
+
+
+# ============================================
+# 上游规则 URL 列表
+#
+# 这里填写所有 .list 上游
+#
+# 注意：
+#   必须使用 raw.githubusercontent.com
+# ============================================
+
+URLS = [
+
+    # ZeeTV
+    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ZeeTV/ZeeTV.list",
+
 ]
 
-# 遍历链接列表，依次请求链接内容并将结果保存到 result 列表中
-for url in urls:
+
+
+# ============================================
+# 输出路径
+#
+# 建议保持你当前仓库结构
+#
+# 示例：
+#   ../Surge/USMedia.list
+# ============================================
+
+OUTPUT_PATH = "../Surge/INMedia.list"
+
+
+
+# ============================================
+# 下载并解析 .list
+# ============================================
+
+def fetch_list(url):
+
     try:
-        raw = requests.get(url).text
-        result.extend([item for item in raw.split("\n") if item.strip() and not item.startswith('#')])
-    except requests.exceptions.RequestException as e:
-        print("Error getting data:", e)
 
-# 去除重复的行
-result = list(set(result))
+        # ====================================
+        # 请求头
+        #
+        # 某些 GitHub CDN
+        # 会限制无UA请求
+        # ====================================
 
-# 获取当前时间并格式化
-tz = pytz.timezone('Asia/Shanghai')
-now = datetime.now(tz)
-time_str = now.strftime("%Y-%m-%d %H:%M:%S")
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/605.1.15 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/605.1.15 Edg/120.0.0.0"
+        }
 
-# 拼接要写入文件的字符串
-result_text = "# INMedia.list\n# Generated at " + time_str + "\n\n" + "\n".join(result) + "\n\n# This configuration file has been generated successfully."
 
-# 将字符串写入文件
-with open("./Surge/INMedia.list", "w", encoding="utf-8") as f:
-    f.write(result_text)
+
+        # ====================================
+        # 发起请求
+        # ====================================
+
+        r = requests.get(
+            url,
+            headers=headers,
+            timeout=15
+        )
+
+
+
+        # ====================================
+        # HTTP状态码检查
+        # ====================================
+
+        if r.status_code != 200:
+
+            print(f"[跳过] HTTP错误 {r.status_code}")
+            print(url)
+
+            return []
+
+
+
+        # 获取文本
+        text = r.text.strip()
+
+
+
+        # ====================================
+        # GitHub Raw 假404检查
+        # ====================================
+
+        if "404: Not Found" in text:
+
+            print(f"[跳过] 文件不存在")
+            print(url)
+
+            return []
+
+
+
+        # ====================================
+        # 空文件检查
+        # ====================================
+
+        if not text:
+
+            print(f"[跳过] 空文件")
+            print(url)
+
+            return []
+
+
+
+        # ====================================
+        # 保存规则
+        # ====================================
+
+        result = []
+
+
+
+        # ====================================
+        # 按行拆分
+        # ====================================
+
+        for line in text.splitlines():
+
+            # 去除前后空格
+            line = line.strip()
+
+
+
+            # 空行跳过
+            if not line:
+                continue
+
+
+
+            # 注释跳过
+            if line.startswith("#"):
+                continue
+
+
+
+            # 超长异常行过滤
+            if len(line) > 500:
+                continue
+
+
+
+            # URL注入过滤
+            if "://" in line:
+                continue
+
+
+
+            # 添加规则
+            result.append(line)
+
+
+
+        print(f"[成功] {url}")
+
+
+
+        return result
+
+
+
+    # ========================================
+    # 所有错误自动跳过
+    # ========================================
+
+    except Exception as e:
+
+        print(f"[错误] {url}")
+        print(e)
+
+        return []
+
+
+
+# ============================================
+# 聚合所有规则
+# ============================================
+
+all_rules = []
+
+
+
+# ============================================
+# 遍历所有上游
+# ============================================
+
+for url in URLS:
+
+    all_rules.extend(fetch_list(url))
+
+
+
+# ============================================
+# 自动去重 + 排序
+# ============================================
+
+all_rules = sorted(set(all_rules))
+
+
+
+# ============================================
+# 获取上海时间
+# ============================================
+
+now = datetime.now(
+    ZoneInfo("Asia/Shanghai")
+).strftime("%Y-%m-%d %H:%M:%S")
+
+
+
+# ============================================
+# 构建最终输出
+# ============================================
+
+output_text = ""
+
+
+
+# 文件头
+output_text += f"# 更新时间: {now}\n"
+
+output_text += f"# 上游数量: {len(URLS)}\n"
+
+output_text += f"# 规则数量: {len(all_rules)}\n"
+
+output_text += "\n"
+
+
+
+# 写入规则正文
+output_text += "\n".join(all_rules)
+
+
+
+# ============================================
+# 自动创建目录
+# ============================================
+
+os.makedirs(
+    os.path.dirname(OUTPUT_PATH),
+    exist_ok=True
+)
+
+
+
+# ============================================
+# 写入文件
+# ============================================
+
+with open(
+    OUTPUT_PATH,
+    "w",
+    encoding="utf-8",
+    newline="\n"
+) as f:
+
+    f.write(output_text)
+
+
+
+# ============================================
+# 输出完成提示
+# ============================================
+
+print("")
+print("====================================")
+print("规则生成完成")
+print(f"输出路径: {OUTPUT_PATH}")
+print(f"规则数量: {len(all_rules)}")
+print("====================================")
