@@ -1,0 +1,46 @@
+payload:
+# =========================
+# Steam 登录 / 调度 / 下载：DIRECT
+# =========================
+
+# 登录认证，结算：直连，降低异地登录/风控提示概率
+  - DOMAIN,login.steampowered.com
+  - DOMAIN,help.steampowered.com
+  - DOMAIN,checkout.steampowered.com
+# Steam Web Session / authorizeddevices / OAuth
+  - DOMAIN,api.steampowered.com
+
+# CM / 调度：直连，用于连接管理和下载 CDN 判定
+  - DOMAIN-SUFFIX,cm.steampowered.com
+
+# 下载内容：直连
+  - DOMAIN-SUFFIX,steamcontent.com
+  - DOMAIN-SUFFIX,steamserver.net
+  - DOMAIN-SUFFIX,steamusercontent.com
+  - DOMAIN-SUFFIX,steamchina.com
+
+# Steam 中国/国内 CDN：直连
+  - DOMAIN,alibaba.cdn.steampipe.steamcontent.com
+  - DOMAIN,client-update.queniuqe.com
+  - DOMAIN,dl.steam.clngaa.com
+  - DOMAIN,dl.steam.ksyna.com
+  - DOMAIN,lv.queniujq.cn
+  - DOMAIN,st.dl.bscstorage.net
+  - DOMAIN,st.dl.eccdnx.com
+  - DOMAIN,st.dl.pinyuncloud.com
+  - DOMAIN,steampipe.steamcontent.tnkjmec.com
+  - DOMAIN,steampowered.com.8686c.com
+  - DOMAIN,steamstatic.com.8686c.com
+  - DOMAIN,xz.pphimalayanrt.com
+  - DOMAIN-SUFFIX,gstore.val.manlaxy.com
+  - DOMAIN-SUFFIX,cdn-ali.content.steamchina.com
+  - DOMAIN-SUFFIX,cdn-qc.content.steamchina.com
+  - DOMAIN-SUFFIX,cdn-ws.content.steamchina.com
+
+# 完美世界 / 国服相关：直连
+  - DOMAIN,wmsjsteam.com
+  - DOMAIN,csgo.wmsj.cn
+  - DOMAIN,dota2.wmsj.cn
+# Valve 游戏网络 / SDR
+  - DOMAIN-SUFFIX,valve.net
+  - DOMAIN-SUFFIX,steamdatagram.net
