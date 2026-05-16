@@ -1,0 +1,66 @@
+payload:
+# =========================
+# Steam 商店 / 社区 / 网页：Proxy
+# =========================
+
+# 商店网页
+  - DOMAIN,store.steampowered.com
+  - DOMAIN,partner.steamgames.com
+# Steam 社区
+  - DOMAIN-SUFFIX,steamcommunity.com
+  - DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net
+
+# Steam 静态资源 / 图片 / 用户内容
+  - DOMAIN,media.steampowered.com
+  - DOMAIN-SUFFIX,steamstatic.com
+  - DOMAIN-SUFFIX,steamstore-a.akamaihd.net
+  - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
+  - DOMAIN-SUFFIX,steamusercontent-a.akamaihd.net
+  - DOMAIN-SUFFIX,steamuserimages-a.akamaihd.net
+  - DOMAIN-SUFFIX,steamvideo-a.akamaihd.net
+  - DOMAIN-KEYWORD,steamstore
+  - DOMAIN-KEYWORD,steamuserimages
+
+# Steam 移动端 / 海外静态资源
+  - DOMAIN-SUFFIX,steammobile.akamaized.net
+
+# 聊天 / 广播 / 视频 / 状态页
+  - DOMAIN-SUFFIX,steam-chat.com
+  - DOMAIN-SUFFIX,steam.tv
+  - DOMAIN-SUFFIX,steambroadcast.akamaized.net
+  - DOMAIN-SUFFIX,steamstat.us
+  - DOMAIN-KEYWORD,steambroadcast
+  
+# Valve / Steam 其他服务
+  - DOMAIN-SUFFIX,valvesoftware.com
+  - DOMAIN-SUFFIX,steamgames.com
+  - DOMAIN-SUFFIX,s.team
+  - DOMAIN-SUFFIX,steam-api.com
+
+# 海外 Steam CDN / ISP CDN
+  - DOMAIN-SUFFIX,steam.apac.qtlglb.com
+  - DOMAIN-SUFFIX,steam.eca.qtlglb.com
+  - DOMAIN-SUFFIX,steam.naeu.qtlglb.com
+  - DOMAIN-SUFFIX,steam.ru.qtlglb.com
+  - DOMAIN-SUFFIX,steam.cdn.on.net
+  - DOMAIN-SUFFIX,steam.cdn.orcon.net.nz
+  - DOMAIN-SUFFIX,steam.cdn.slingshot.co.nz
+  - DOMAIN-SUFFIX,steam.cdn.webra.ru
+
+# Steam Deck / Valve 游戏产品页
+  - DOMAIN-SUFFIX,steamdeck.com
+  - DOMAIN-SUFFIX,playartifact.com
+  - DOMAIN-SUFFIX,underlords.com
+
+# 第三方 Steam Key 商店，可选
+  - DOMAIN-SUFFIX,fanatical.com
+  - DOMAIN-SUFFIX,humblebundle.com
+
+# 海外 SteamPipe / Akamai 下载 CDN，可选
+  - DOMAIN-SUFFIX,steampipe.akamaized.net
+  - DOMAIN-SUFFIX,steampipe-kr.akamaized.net
+  - DOMAIN-SUFFIX,steampipe-partner.akamaized.net
+
+# 海外 CDN，可选
+  - DOMAIN-SUFFIX,edge.steam-dns.top.comcast.net
+  - DOMAIN-SUFFIX,f3b7q2p3.ssl.hwcdn.net
